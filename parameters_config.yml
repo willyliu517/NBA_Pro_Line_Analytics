@@ -1,0 +1,431 @@
+PPG_AVG_L6G: {Description: Average points per game for the team over the last 6 games. Null if not applicable., 
+              Parameter_Name: PPG_AVG_L6G, 
+              column_required: PTS, 
+              method_of_compute: mean,
+              rolling_window_required: 6}
+              
+PPG_AVG_L5G: {Description: Average points per game for the team over the last 5 games. Null if not applicable., 
+              Parameter_Name: PPG_AVG_L5G, 
+              column_required: PTS, 
+              method_of_compute: mean,
+              rolling_window_required: 5}
+  
+PPG_AVG_L4G: {Description: Average points per game for the team over the last 4 games. Null if not applicable., 
+              Parameter_Name: PPG_AVG_L4G, 
+              column_required: PTS, 
+              method_of_compute: mean,
+              rolling_window_required: 4}
+
+PPG_AVG_L3G: {Description: Average points per game for the team over the last 3 games. Null if not applicable., 
+              Parameter_Name: PPG_AVG_L3G, 
+              column_required: PTS, 
+              method_of_compute: mean,
+              rolling_window_required: 3}
+
+PPG_AVG_L2G: {Description: Average points per game for the team over the last 2 games. Null if not applicable., 
+              Parameter_Name: PPG_AVG_L2G, 
+              column_required: PTS, 
+              method_of_compute: mean,
+              rolling_window_required: 2}
+
+PPG_LG: {Description: Points scored in the last game Null if not applicable., 
+         Parameter_Name: PPG_LG, 
+         column_required: PTS, 
+         method_of_compute: mean,
+         rolling_window_required: 1}
+             
+APG_AVG_L6G: {Description: Average assists per game for the team over the last 6 games. Null if not applicable., 
+              Parameter_Name: APG_AVG_L6G, 
+              column_required: A, 
+              method_of_compute: mean,
+              rolling_window_required: 6}
+              
+APG_AVG_L5G: {Description: Average assists per game for the team over the last 5 games. Null if not applicable., 
+              Parameter_Name: APG_AVG_L5G, 
+              column_required: A, 
+              method_of_compute: mean,
+              rolling_window_required: 5}
+  
+APG_AVG_L4G: {Description: Average assists per game for the team over the last 4 games. Null if not applicable., 
+              Parameter_Name: APG_AVG_L4G, 
+              column_required: A, 
+              method_of_compute: mean,
+              rolling_window_required: 4}
+
+APG_AVG_L3G: {Description: Average assists per game for the team over the last 3 games. Null if not applicable., 
+              Parameter_Name: APG_AVG_L3G, 
+              column_required: PTS, 
+              method_of_compute: mean,
+              rolling_window_required: 3}
+
+APG_AVG_L2G: {Description: Average assists per game for the team over the last 2 games. Null if not applicable., 
+              Parameter_Name: APG_AVG_L2G, 
+              column_required: A, 
+              method_of_compute: mean,
+              rolling_window_required: 2}
+
+APG_LG: {Description: Assists in the last game Null if not applicable., 
+         Parameter_Name: APG_LG, 
+         column_required: A, 
+         method_of_compute: mean,
+         rolling_window_required: 1}
+             
+TOT_AVG_L6G: {Description: Average total rebounds per game for the team over the last 6 games. Null if not applicable., 
+              Parameter_Name: TOT_AVG_L6G, 
+              column_required: TOT, 
+              method_of_compute: mean,
+              rolling_window_required: 6}
+              
+TOT_AVG_L5G: {Description: Average total rebounds per game for the team over the last 5 games. Null if not applicable., 
+              Parameter_Name: TOT_AVG_L5G, 
+              column_required: TOT, 
+              method_of_compute: mean,
+              rolling_window_required: 5}
+  
+TOT_AVG_L4G: {Description: Average total rebounds per game for the team over the last 4 games. Null if not applicable., 
+              Parameter_Name: TOT_AVG_L4G, 
+              column_required: TOT, 
+              method_of_compute: mean,
+              rolling_window_required: 4}
+
+TOT_AVG_L3G: {Description: Average total rebounds per game for the team over the last 3 games. Null if not applicable., 
+              Parameter_Name: TOT_AVG_L3G, 
+              column_required: TOT, 
+              method_of_compute: mean,
+              rolling_window_required: 3}
+
+TOT_AVG_L2G: {Description: Average total rebounds per game for the team over the last 2 games. Null if not applicable., 
+              Parameter_Name: TOT_AVG_L2G, 
+              column_required: TOT, 
+              method_of_compute: mean,
+              rolling_window_required: 2}
+
+TOT_LG: {Description: Total rebounds in the last game Null if not applicable., 
+         Parameter_Name: TOT_LG, 
+         column_required: TOT, 
+         method_of_compute: mean,
+         rolling_window_required: 1}
+             
+ST_AVG_L6G: {Description: Average steals per game for the team over the last 6 games. Null if not applicable., 
+             Parameter_Name: ST_AVG_L6G, 
+             column_required: ST, 
+             method_of_compute: mean,
+             rolling_window_required: 6}
+              
+ST_AVG_L5G: {Description: Average steals per game for the team over the last 5 games. Null if not applicable., 
+             Parameter_Name: ST_AVG_L5G, 
+             column_required: ST, 
+             method_of_compute: mean,
+             rolling_window_required: 5}
+  
+ST_AVG_L4G: {Description: Average steals per game for the team over the last 4 games. Null if not applicable., 
+             Parameter_Name: ST_AVG_L4G, 
+             column_required: ST, 
+             method_of_compute: mean,
+             rolling_window_required: 4}
+
+ST_AVG_L3G: {Description: Average steals per game for the team over the last 3 games. Null if not applicable., 
+             Parameter_Name: ST_AVG_L3G, 
+             column_required: ST, 
+             method_of_compute: mean,
+             rolling_window_required: 3}
+
+ST_AVG_L2G: {Description: Average steals per game for the team over the last 2 games. Null if not applicable., 
+             Parameter_Name: ST_AVG_L2G, 
+             column_required: ST, 
+             method_of_compute: mean,
+             rolling_window_required: 2}
+
+ST_LG: {Description: Steals in the last game Null if not applicable., 
+        Parameter_Name: ST_LG, 
+        column_required: ST, 
+        method_of_compute: mean,
+        rolling_window_required: 1}
+        
+BL_AVG_L6G: {Description: Average blocks per game for the team over the last 6 games. Null if not applicable., 
+             Parameter_Name: BL_AVG_L6G, 
+             column_required: BL, 
+             method_of_compute: mean,
+             rolling_window_required: 6}
+              
+BL_AVG_L5G: {Description: Average blocks per game for the team over the last 5 games. Null if not applicable., 
+             Parameter_Name: BL_AVG_L5G, 
+             column_required: BL, 
+             method_of_compute: mean,
+             rolling_window_required: 5}
+  
+BL_AVG_L4G: {Description: Average blocks per game for the team over the last 4 games. Null if not applicable., 
+             Parameter_Name: BL_AVG_L4G, 
+             column_required: BL, 
+             method_of_compute: mean,
+             rolling_window_required: 4}
+
+BL_AVG_L3G: {Description: Average blocks per game for the team over the last 3 games. Null if not applicable., 
+             Parameter_Name: BL_AVG_L3G, 
+             column_required: BL, 
+             method_of_compute: mean,
+             rolling_window_required: 3}
+
+BL_AVG_L2G: {Description: Average blocks per game for the team over the last 2 games. Null if not applicable., 
+             Parameter_Name: BL_AVG_L2G, 
+             column_required: BL, 
+             method_of_compute: mean,
+             rolling_window_required: 2}
+
+BL_LG: {Description: Blocks in the last game Null if not applicable., 
+        Parameter_Name: BL_LG, 
+        column_required: BL, 
+        method_of_compute: mean,
+        rolling_window_required: 1}
+             
+FG_PCT_L6G: {Description: Average field goal percentage for the team over the last 6 games. Null if not applicable., 
+             Parameter_Name: FG_PCT_L6G, 
+             column_required: FG_PCT, 
+             method_of_compute: mean,
+             rolling_window_required: 6}
+
+FG_PCT_L5G: {Description: Average field goal percentage for the team over the last 5 games. Null if not applicable., 
+             Parameter_Name: FG_PCT_L5G, 
+             column_required: FG_PCT, 
+             method_of_compute: mean,
+             rolling_window_required: 5}
+ 
+FG_PCT_L4G: {Description: Average field goal percentage for the team over the last 4 games. Null if not applicable., 
+             Parameter_Name: FG_PCT_L4G, 
+             column_required: FG_PCT, 
+             method_of_compute: mean,
+             rolling_window_required: 4}
+              
+FG_PCT_L3G: {Description: Average field goal percentage for the team over the last 3 games. Null if not applicable., 
+             Parameter_Name: FG_PCT_L3G, 
+             column_required: FG_PCT, 
+             method_of_compute: mean,
+             rolling_window_required: 3}
+
+FG_PCT_L2G: {Description: Average field goal percentage for the team over the last 2 games. Null if not applicable., 
+             Parameter_Name: FG_PCT_L2G, 
+             column_required: FG_PCT, 
+             method_of_compute: mean,
+             rolling_window_required: 2}
+              
+FG_PCT_LG: {Description: Field goal percentage for the team in the last game. Null if not applicable., 
+            Parameter_Name: FG_PCT_LG, 
+            column_required: FG_PCT, 
+            method_of_compute: mean,
+            rolling_window_required: 1}
+            
+TS_PCT_L6G: {Description: Average true shooting percentage for the team over the last 6 games. Null if not applicable., 
+             Parameter_Name: TS_PCT_L6G, 
+             column_required: TS_PCT, 
+             method_of_compute: mean,
+             rolling_window_required: 6}
+              
+TS_PCT_L5G: {Description: Average true shooting percentage for the team over the last 5 games. Null if not applicable., 
+             Parameter_Name: TS_PCT_L5G, 
+             column_required: TS_PCT, 
+             method_of_compute: mean,
+             rolling_window_required: 5}
+
+TS_PCT_L4G: {Description: Average true shooting percentage for the team over the last 4 games. Null if not applicable., 
+             Parameter_Name: TS_PCT_L4G, 
+             column_required: TS_PCT, 
+             method_of_compute: mean,
+             rolling_window_required: 4}
+              
+TS_PCT_L3G: {Description: Average true shooting percentage for the team over the last 3 games. Null if not applicable., 
+             Parameter_Name: TS_PCT_L3G, 
+             column_required: TS_PCT, 
+             method_of_compute: mean,
+             rolling_window_required: 3}
+
+TS_PCT_L2G: {Description: Average true shooting percentage for the team over the last 2 games. Null if not applicable., 
+             Parameter_Name: TS_PCT_L2G, 
+             column_required: TS_PCT, 
+             method_of_compute: mean,
+             rolling_window_required: 2}
+              
+TS_PCT_LG: {Description: True shooting percentage for the team in the last game. Null if not applicable., 
+            Parameter_Name: TS_PCT_LG, 
+            column_required: TS_PCT, 
+            method_of_compute: mean,
+            rolling_window_required: 1}
+              
+3PT_PCT_L6G: {Description: Average 3-point shooting percentage for the team over the last 6 games. Null if not applicable., 
+              Parameter_Name: 3PT_PCT_L6G, 
+              column_required: 3P_PCT, 
+              method_of_compute: mean,
+              rolling_window_required: 6}
+              
+3PT_PCT_L5G: {Description: Average 3-point shooting percentage for the team over the last 5 games. Null if not applicable., 
+              Parameter_Name: 3PT_PCT_L5G, 
+              column_required: 3P_PCT, 
+              method_of_compute: mean,
+              rolling_window_required: 5}
+
+3PT_PCT_L4G: {Description: Average 3-point shooting percentage for the team over the last 4 games. Null if not applicable., 
+              Parameter_Name: 3PT_PCT_L4G, 
+              column_required: 3P_PCT, 
+              method_of_compute: mean,
+              rolling_window_required: 4}
+              
+3PT_PCT_L3G: {Description: Average 3-point shooting percentage for the team over the last 3 games. Null if not applicable., 
+              Parameter_Name: 3PT_PCT_L3G, 
+              column_required: 3P_PCT, 
+              method_of_compute: mean,
+              rolling_window_required: 3}
+
+3PT_PCT_L2G: {Description: Average 3-point shooting percentage for the team over the last 2 games. Null if not applicable., 
+              Parameter_Name: 3PT_PCT_L2G, 
+              column_required: 3P_PCT, 
+              method_of_compute: mean,
+              rolling_window_required: 2}
+              
+3PT_PCT_LG: {Description: 3-point shooting percentage for the team in the last game. Null if not applicable., 
+             Parameter_Name: 3PT_PCT_LG, 
+             column_required: 3P_PCT, 
+             method_of_compute: mean,
+             rolling_window_required: 1}
+
+FT_PCT_L6G: {Description: Average free-throw shooting percentage for the team over the last 6 games. Null if not applicable., 
+             Parameter_Name: FT_PCT_L6G, 
+             column_required: FT_PCT, 
+             method_of_compute: mean,
+             rolling_window_required: 6}
+              
+FT_PCT_L5G: {Description: Average free-throw shooting percentage for the team over the last 5 games. Null if not applicable., 
+             Parameter_Name: FT_PCT_L5G, 
+             column_required: FT_PCT, 
+             method_of_compute: mean,
+             rolling_window_required: 5}
+
+FT_PCT_L4G: {Description: Average free-throw shooting percentage for the team over the last 4 games. Null if not applicable., 
+             Parameter_Name: FT_PCT_L4G, 
+             column_required: FT_PCT, 
+             method_of_compute: mean,
+             rolling_window_required: 4}
+              
+FT_PCT_L3G: {Description: Average free-throw shooting percentage for the team over the last 3 games. Null if not applicable., 
+             Parameter_Name: FT_PCT_L3G, 
+             column_required: FT_PCT, 
+             method_of_compute: mean,
+             rolling_window_required: 3}
+
+FT_PCT_L2G: {Description: Average free-throw shooting percentage for the team over the last 2 games. Null if not applicable., 
+             Parameter_Name: FT_PCT_L2G, 
+             column_required: FT_PCT, 
+             method_of_compute: mean,
+             rolling_window_required: 2}
+              
+FT_PCT_LG: {Description: Free-throw shooting percentage for the team in the last game. Null if not applicable., 
+            Parameter_Name: FT_PCT_LG, 
+            column_required: FT_PCT, 
+            method_of_compute: mean,
+            rolling_window_required: 1}
+
+OEFF_L6G: {Description: Average offensive efficiency for the team over the last 6 games. Null if not applicable., 
+           Parameter_Name: OEFF_L6G, 
+           column_required: OEFF, 
+           method_of_compute: mean,
+           rolling_window_required: 6}
+              
+OEFF_L5G: {Description: Average offensive efficiency for the team over the last 5 games. Null if not applicable., 
+           Parameter_Name: OEFF_L5G, 
+           column_required: OEFF, 
+           method_of_compute: mean,
+           rolling_window_required: 5}
+
+OEFF_L4G: {Description: Average offensive efficiency for the team over the last 4 games. Null if not applicable., 
+           Parameter_Name: OEFF_L4G, 
+           column_required: OEFF, 
+           method_of_compute: mean,
+           rolling_window_required: 4}
+              
+OEFF_L3G: {Description: Average offensive efficiency for the team over the last 3 games. Null if not applicable.,  
+           Parameter_Name: OEFF_L3G, 
+           column_required: OEFF, 
+           method_of_compute: mean,
+           rolling_window_required: 3}
+
+OEFF_L2G: {Description: Average offensive efficiency for the team over the last 2 games. Null if not applicable., 
+           Parameter_Name: OEFF_L2G, 
+           column_required: OEFF, 
+           method_of_compute: mean,
+           rolling_window_required: 2}
+             
+OEFF_LG: {Description: Average offensive efficiency for the team in the last game. Null if not applicable., 
+          Parameter_Name: OEFF_LG, 
+          column_required: OEFF, 
+          method_of_compute: mean,
+          rolling_window_required: 1}
+
+DEFF_L6G: {Description: Average defensive efficiency for the team over the last 6 games. Null if not applicable., 
+           Parameter_Name: DEFF_L6G, 
+           column_required: DEFF, 
+           method_of_compute: mean,
+           rolling_window_required: 6}
+
+DEFF_L5G: {Description: Average defensive efficiency for the team over the last 5 games. Null if not applicable., 
+           Parameter_Name: DEFF_L5G, 
+           column_required: DEFF, 
+           method_of_compute: mean,
+           rolling_window_required: 5}
+           
+DEFF_L4G: {Description: Average defensive efficiency for the team over the last 4 games. Null if not applicable., 
+           Parameter_Name: DEFF_L4G, 
+           column_required: DEFF, 
+           method_of_compute: mean,
+           rolling_window_required: 4}
+           
+DEFF_L3G: {Description: Average defensive efficiency for the team over the last 3 games. Null if not applicable., 
+           Parameter_Name: DEFF_L3G, 
+           column_required: DEFF, 
+           method_of_compute: mean,
+           rolling_window_required: 3}
+           
+DEFF_L2G: {Description: Average defensive efficiency for the team over the last 2 games. Null if not applicable., 
+           Parameter_Name: DEFF_L2G, 
+           column_required: DEFF, 
+           method_of_compute: mean,
+           rolling_window_required: 2}
+
+DEFF_LG: {Description: Average defensive efficiency for the team in the last game. Null if not applicable., 
+          Parameter_Name: DEFF_LG, 
+          column_required: DEFF, 
+          method_of_compute: mean,
+          rolling_window_required: 1}
+          
+PACE_L6G: {Description: Average pace for the team over the last 6 games. Null if not applicable., 
+           Parameter_Name: PACE_L6G, 
+           column_required: PACE, 
+           method_of_compute: mean,
+           rolling_window_required: 6}
+              
+PACE_L5G: {Description: Average pace for the team over the last 5 games. Null if not applicable., 
+           Parameter_Name: PACE_L5G, 
+           column_required: PACE, 
+           method_of_compute: mean,
+           rolling_window_required: 5}
+
+PACE_L4G: {Description: Average pace for the team over the last 4 games. Null if not applicable., 
+           Parameter_Name: PACE_L4G, 
+           column_required: PACE, 
+           method_of_compute: mean,
+           rolling_window_required: 4}
+              
+PACE_L3G: {Description: Average pace for the team over the last 3 games. Null if not applicable.,  
+           Parameter_Name: PACE_L3G, 
+           column_required: PACE, 
+           method_of_compute: mean,
+           rolling_window_required: 3}
+
+PACE_L2G: {Description: Average pace for the team over the last 2 games. Null if not applicable., 
+           Parameter_Name: PACE_L2G, 
+           column_required: PACE, 
+           method_of_compute: mean,
+           rolling_window_required: 2}
+
+PACE_LG: {Description: Pace for the team in the last game. Null if not applicable., 
+          Parameter_Name: PACE_LG, 
+          column_required: PACE, 
+          method_of_compute: mean,
+          rolling_window_required: 1}

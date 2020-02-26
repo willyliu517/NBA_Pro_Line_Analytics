@@ -1,0 +1,22 @@
+NBA_Team_stats:
+  - 2009-2010_NBA_Box_Score_Team-Stats.xlsx
+  - 2010-2011_NBA_Box_Score_Team-Stats.xlsx
+  - 2011-2012_NBA_Box_Score_Team-Stats.xlsx
+  - 2012-2013_NBA_Box_Score_Team-Stats.xlsx
+  - 2013-2014_NBA_Box_Score_Team-Stats.xlsx
+  - 2014-2015_NBA_Box_Score_Team-Stats.xlsx
+  - 2015-2016_NBA_Box_Score_Team-Stats.xlsx
+  - 2016-2017_NBA_Box_Score_Team-Stats.xlsx
+  - 2017-2018_NBA_Box_Score_Team-Stats.xlsx
+  - 2018-2019_NBA_Box_Score_Team-Stats.xlsx
+NBA_Player_stats:
+  - NBA-2009-2010-Player-BoxScore-Dataset.xlsx
+  - NBA-2010-2011-Player-BoxScore-Dataset.xlsx
+  - NBA-2011-2012-Player-BoxScore-Dataset.xlsx
+  - NBA-2012-2013-Player-BoxScore-Dataset.xlsx
+  - NBA-2013-2014-Player-BoxScore-Dataset.xlsx
+  - NBA-2014-2015-Player-BoxScore-Dataset.xlsx
+  - NBA-2015-2016-Player-BoxScore-Dataset.xlsx
+  - NBA-2016-2017-Player-BoxScore-Dataset.xlsx
+  - NBA-2017-2018-Player-BoxScore-Dataset.xlsx
+  - NBA-2018-2019-Player-BoxScore-Dataset.xlsx
