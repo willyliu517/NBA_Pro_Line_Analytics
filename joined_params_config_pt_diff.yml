@@ -1,0 +1,49 @@
+AVG_PTdiff_L8G: {Description: 'Avg pt differential in last 8 games, NaN if not applicable',
+                 Parameter_Name: AVG_PTdiff_L8G,
+                 column_required: 'requires team_won and SCORE_DIFF column',
+                 method_of_compute: mean,
+                 rolling_window_required: 8}
+
+AVG_PTdiff_L7G: {Description: 'Avg pt differential in last 7 games, NaN if not applicable',
+                 Parameter_Name: AVG_PTdiff_L7G,
+                 column_required: 'requires team_won and SCORE_DIFF column',
+                 method_of_compute: mean,
+                 rolling_window_required: 7}
+
+AVG_PTdiff_L6G: {Description: 'Avg pt differential in last 6 games, NaN if not applicable',
+                 Parameter_Name: AVG_PTdiff_L6G,
+                 column_required: 'requires team_won and SCORE_DIFF column',
+                 method_of_compute: mean,
+                 rolling_window_required: 6}
+
+AVG_PTdiff_L5G: {Description: 'Avg pt differential in last 5 games, NaN if not applicable',
+                 Parameter_Name: AVG_PTdiff_L5G,
+                 column_required: 'requires team_won and SCORE_DIFF column',
+                 method_of_compute: mean,
+                 rolling_window_required: 5}
+                  
+AVG_PTdiff_L4G: {Description: 'Avg pt differential in last 4 games, NaN if not applicable',
+                 Parameter_Name: AVG_PTdiff_L4G,
+                 column_required: 'requires team_won and SCORE_DIFF column',
+                 method_of_compute: mean,
+                 rolling_window_required: 4}
+                  
+AVG_PTdiff_L3G: {Description: 'Avg pt differential in last 3 games, NaN if not applicable',
+                 Parameter_Name: AVG_PTdiff_L3G,
+                 column_required: 'requires team_won and SCORE_DIFF column',
+                 method_of_compute: mean,
+                 rolling_window_required: 3}
+                 
+AVG_PTdiff_L2G: {Description: 'Avg pt differential in last 2 games, NaN if not applicable',
+                 Parameter_Name: AVG_PTdiff_L2G,
+                 column_required: 'requires team_won and SCORE_DIFF column',
+                 method_of_compute: mean,
+                 rolling_window_required: 2}
+                 
+AVG_PTdiff_LG: {Description: 'Avg pt differential in last game, NaN if not applicable',
+                 Parameter_Name: AVG_PTdiff_LG,
+                 column_required: 'requires team_won and SCORE_DIFF column',
+                 method_of_compute: mean,
+                 rolling_window_required: 1}
+                  
+  
