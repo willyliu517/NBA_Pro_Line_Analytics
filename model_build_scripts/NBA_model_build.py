@@ -47,13 +47,14 @@ class NBA_Model_Build:
         ''' Method for reading in the model build data'''
         df = pd.read_csv(self.input_path)
         ''' Applies filter used for build and validation dataset'''
-        df_train = df[eval(self.model_build_filter)]
+        df_build = df[eval(self.model_build_filter)]
+        df_train, df_tune = train_test_split(df_build, test_size = .25, random_state = self.seed)
         df_validate = df[eval(self.model_validation_filter)]
         self.df = df
         self.df_train = df_train
+        self.df_tune = df_tune
         self.df_validate = df_validate
         
-    def run_rfe(self, params):
         
         
                  
