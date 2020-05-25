@@ -1,0 +1,52 @@
+- scenario_name : "pro_line_model_build_all_params"
+  scenario_param:
+    inputs_path: '~/NBA_Pro_Line_Analytics/build_data/NBA_Team_Stats_2010-2019_Joined_Model_Build/NBA_Team_Stats_final_model_build.csv'
+    results_path: '~/NBA_Pro_Line_Analytics/model_scenario/pro_line_model_build_all_params/'
+    seed: 2454371
+    target: 'Outcome'
+    candidate_variable_set:
+        - average_ppg_HT
+        - average_ppg_RT
+        - average_apg_HT
+        - average_apg_RT
+        - average_TOT_HT
+        - average_TOT_RT
+        - average_ST_HT
+        - average_ST_RT
+        - average_BL_HT
+        - average_BL_RT
+        - average_FG_PCT_HT
+        - average_FG_PCT_RT
+        - average_TS_PCT_HT
+        - average_TS_PCT_RT
+        - average_3PT_PCT_HT
+        - average_3PT_PCT_RT
+        - average_FT_PCT_HT
+        - average_FT_PCT_RT
+        - average_OEFF_HT
+        - average_OEFF_RT
+        - average_DEFF_HT
+        - average_DEFF_RT
+        - average_PACE_HT
+        - average_PACE_RT
+        - HT_Num_Wins_LXG
+        - RT_Num_Wins_LXG
+        - HT_Avg_PTdiff_LXG
+        - RT_Avg_PTdiff_LXG
+        - HT_within_5_LXG
+        - RT_within_5_LXG
+        - HT_win_6+_LXG
+        - RT_win_6+_LXG
+        - HT_lost_6+_LXG
+        - RT_lost_6+_LXG
+    hyperopt:
+        fmin_max_evals: 200
+        hyperparam_space:
+            subsample: hp.quniform('subsample', 0.6, 1, .05)
+            num_leaves: scope.int(hp.quniform('num_leaves', 4, 64, 1))
+            min_data_in_leaf: scope.int(hp.quniform('min_data_in_leaf', 5, 100, 5))
+            reg_alpha: hp.uniform('reg_alpha", 0.0, 1.0)
+            reg_lambda: hp.uniform('reg_lambda", 0.0, 1.0)
+            colsample_bytree: hp.uniform('colsample_bytree', 0.6, 1.0)
+            
+        
