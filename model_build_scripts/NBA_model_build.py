@@ -5,7 +5,10 @@ from model_build_scripts import helpers
 import lightgbm
 import yaml
 import pickle
-
+import numpy as np
+from hyperopt.pyll.base import scope 
+from hyperopt import fmin, STATUS_OK, Trials, hp, tpe, rand
+from sklearn import metrics
 
 class NBA_Model_Build:
     
@@ -39,10 +42,12 @@ class NBA_Model_Build:
         self.X_vars = list()
         [self.X_vars.extend(self.usable_var_set[var_set]) for var_set in self.candidate_var_set]
         self.X_vars = list(set(self.X_vars))
-        
         self.model_build_filter = self.usable_filters['date_filter_build']
         self.model_validation_filter = self.usable_filters['date_filter_validation']
-        
+        self.fmin_max_evals = scenario_param['hyperopt']['fmin_max_evals']
+        self.hyperopt_param_space = helpers.eval_space(scenario_param['hyperopt']['hyperparam_space'])
+                                                       
+                                                       
     def load_data(self):
         ''' Method for reading in the model build data'''
         df = pd.read_csv(self.input_path)
@@ -54,6 +59,115 @@ class NBA_Model_Build:
         self.df_train = df_train
         self.df_tune = df_tune
         self.df_validate = df_validate
+        
+    def run_rfe(self, model_params, target, X_vars, threshold = 0):
+        model = lightgbm.LGBMModel(**model_params, importance_type = 'gain')
+        eval_set = [(self.df_tune[X_vars], self.df_tune[self.target])]
+        model.fit(X =self.df_train[X_vars],
+                  y = self.df_train[self.target],
+                  eval_set = eval_set)
+        
+        #Dataframe of features and their corresponding level of importance by gain
+        importance_df = pd.DataFrame(data = {
+                                              'features': X_vars,
+                                              'gain_importances': model.feature_importances_ 
+                                             })
+        
+        while sum(model.feature_importances_ <= threshold) > 0:
+            print(f"{sum(model.feature_importances_ <= threshold)} features below threshold")
+            print("The following features will be removed:")
+            print(importance_df.loc[model.feature_importances_ <= threshold]['features'].tolist())
+            
+            
+            features = importance_df.loc[model.feature_importances_ > threshold]['features'].tolist()
+            eval_set = [(self.df_tune[features], self.df_tune[self.target])]
+            model.fit(X =self.df_train[features],
+                      y = self.df_train[self.target],
+                      eval_set = eval_set)
+            importance_df = pd.DataFrame(data = {
+                                               'features': model.booster_.feature_name(),
+                                               'gain_importances': model.feature_importances_ 
+                                                })
+            
+        self.feature_importance_df = importance_df.sort_values(by=['gain_importances'], ascending=False)
+        self.post_rfe_model = model
+        return self.post_rfe_model, self.feature_importance_df
+    
+    def run_hyperopt(self, param_space, X_vars, model_params, fmin_max_evals,
+                     algo = 'tpe', metric = 'balanced_accuracy_score', trials_obj = None): 
+        '''
+        Function to run Bayeisan or Random Search hyperparameter optimization
+        '''
+        
+        #Builds the model object to conduct hyperparameter tuning on 
+        hyperopt_model = lightgbm.LGBMModel(**model_params, importance_type = 'gain')
+        eval_set = [(self.df_tune[X_vars], self.df_tune[self.target])]
+        hyperopt_model.fit(X =self.df_train[X_vars],
+                           y = self.df_train[self.target],
+                           eval_set = eval_set)
+        data = self.df_tune
+        
+        def evaluate_metric(params):
+            
+            hyperopt_model.set_params(**params, bagging_freq  = 1 ).fit(X =self.df_train[X_vars],
+                                                                        y = self.df_train[self.target],
+                                                                        eval_set = eval_set)
+            
+            eval_x = data[X_vars]
+            y_true = data[self.target]
+            
+            y_score = hyperopt_model.predict(eval_x)
+            
+            y_pred =  [np.argmax(i) for i in y_score]
+            
+            if isinstance(metric, str):
+                sk_scorer = getattr(metrics, metric, None)
+            if sk_scorer is None:
+                print(f"Specified metric {metric} does not exist in sklearn")
+            
+            score = sk_scorer(y_true = y_true, y_pred = y_pred)
+            
+            return {'loss': -score, 'params': params, 'status': STATUS_OK }
+        
+        if trials_obj is None:
+            self.trials = Trials()
+        else:
+            self.trials = trials_obj
+            
+        if algo == 'tpe':
+            algo = tpe.suggest 
+        elif algo == 'random':
+            algo = rand.suggest
+            
+        best_params = fmin(
+            evaluate_metric,
+            space = param_space,
+            algo = algo,
+            max_evals = fmin_max_evals,
+            rstate = np.random.RandomState(self.seed),
+            trials = self.trials
+        )
+        
+        return best_params, self.trials
+            
+        
+                
+            
+                
+            
+            
+                
+            
+                
+    
+           
+        
+            
+            
+            
+            
+        
+        
         
         
         

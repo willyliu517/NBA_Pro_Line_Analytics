@@ -42,11 +42,12 @@
     hyperopt:
         fmin_max_evals: 200
         hyperparam_space:
+            learning_rate: hp.quniform('learning_rate', .01, .1, .01)
             subsample: hp.quniform('subsample', 0.6, 1, .05)
             num_leaves: scope.int(hp.quniform('num_leaves', 4, 64, 1))
             min_data_in_leaf: scope.int(hp.quniform('min_data_in_leaf', 5, 100, 5))
-            reg_alpha: hp.uniform('reg_alpha", 0.0, 1.0)
-            reg_lambda: hp.uniform('reg_lambda", 0.0, 1.0)
+            reg_alpha: hp.uniform("reg_alpha", 0.0, 1.0)
+            reg_lambda: hp.uniform("reg_lambda", 0.0, 1.0)
             colsample_bytree: hp.uniform('colsample_bytree', 0.6, 1.0)
             
         
