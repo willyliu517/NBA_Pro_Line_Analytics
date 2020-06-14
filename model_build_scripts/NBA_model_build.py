@@ -151,7 +151,68 @@ class NBA_Model_Build:
         return best_params, self.trials
             
         
-                
+    def run_feature_reduction(self, model_params, Xvars, metric = 'balanced_accuracy_score', reduction_step = .15):
+        '''
+        Method used to assess the number of features to include in the final model
+        
+        '''
+        
+        selected_list = Xvars
+        
+        num_of_features = len(selected_list)
+        
+        sk_scorer = getattr(metrics, metric, None)
+        
+        score_list = []
+        num_features_list = []
+        
+        feature_selection_df = pd.DataFrame()
+        idx = 0
+        while num_of_features > 20: 
+            
+            num_features_list.append(num_of_features)
+            
+            print(f"building out model with {num_of_features} features:")
+            model = lightgbm.LGBMModel(**model_params, importance_type = 'gain')
+            tuning_set = [(self.df_tune[selected_list], self.df_tune[self.target])]
+            model.fit(X = self.df_train[selected_list], y = self.df_train[self.target], eval_set = tuning_set)
+            
+            tune_x = self.df_tune[selected_list]
+            y_true = self.df_tune[self.target]
+            y_score = model.predict(tune_x)
+            y_pred = [np.argmax(i) for i in y_score]
+            
+            score = sk_scorer(y_true = y_true, y_pred = y_pred)
+            score_list.append(score)
+            
+            #Creates the feature importance dataframe
+            importance_df = pd.DataFrame(data = {
+                                               'features': model.booster_.feature_name(),
+                                               'gain_importances': model.feature_importances_ 
+                                                })
+        
+            importance_df = importance_df.sort_values(by=['gain_importances'], ascending=False)
+            
+            list_of_features = importance_df['features']
+            
+            feature_selection_df.insert(loc = idx, column = f'{num_of_features}_features', value = list_of_features)
+            idx += 1
+            
+            num_of_features = int(len(list_of_features) * ( 1 - reduction_step))
+            
+            selected_list = list_of_features[0: num_of_features]
+            
+        with PdfPages(feature_plot_path) as pdf:
+            fig = plt.figure(figsize = (20,10))
+            ax = fig.add_subplot(111)
+            ax.plot(num_features_list, score_list)
+            plt.ylabel('balanced_accuracy_score')
+            plt.xlabel('num_of_features')
+            pdf.savefig(fig)
+            
+        return feature_selection_df
+            
+        
             
                 
             
