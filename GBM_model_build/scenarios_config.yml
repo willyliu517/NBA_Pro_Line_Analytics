@@ -1,0 +1,314 @@
+- scenario_name : "GBM_three_way_outcome_model_build_all_features"
+  scenario_param:
+    inputs_path: '~/NBA_Pro_Line_Analytics/model_build_data/NBA_Team_Stats_2010-2019_Rolling_Avg_Win_Loss_pts_diff_player_features/model_build_validation.csv'
+    results_path: '~/NBA_Pro_Line_Analytics/model_scenario/pro_line_model_build_all_params/'
+    seed: 2454371
+    target: 'outcome'
+    candidate_variable_set:
+        - average_metrics_HT_L10G
+        - average_metrics_RT_L10G
+        - average_metrics_HT_L9G
+        - average_metrics_RT_L9G
+        - average_metrics_HT_L8G
+        - average_metrics_RT_L8G
+        - average_metrics_HT_L7G
+        - average_metrics_RT_L7G
+        - average_metrics_HT_L6G
+        - average_metrics_RT_L6G
+        - average_metrics_HT_L5G
+        - average_metrics_RT_L5G
+        - average_metrics_HT_L4G
+        - average_metrics_RT_L4G
+        - average_metrics_HT_L3G
+        - average_metrics_RT_L3G
+        - average_metrics_HT_L2G
+        - average_metrics_RT_L2G
+        - average_metrics_HT_LG
+        - average_metrics_RT_LG
+        - outcome_metrics_HT_L10G
+        - outcome_metrics_RT_L10G
+        - outcome_metrics_HT_L9G
+        - outcome_metrics_RT_L9G
+        - outcome_metrics_HT_L8G
+        - outcome_metrics_RT_L8G
+        - outcome_metrics_HT_L7G
+        - outcome_metrics_RT_L7G
+        - outcome_metrics_HT_L6G
+        - outcome_metrics_RT_L6G
+        - outcome_metrics_HT_L5G
+        - outcome_metrics_RT_L5G
+        - outcome_metrics_HT_L4G
+        - outcome_metrics_RT_L4G
+        - outcome_metrics_HT_L3G
+        - outcome_metrics_RT_L3G
+        - outcome_metrics_HT_L2G
+        - outcome_metrics_RT_L2G
+        - outcome_metrics_HT_LG
+        - outcome_metrics_RT_LG
+        - players_metrics_HT_L10G
+        - players_metrics_RT_L10G
+        - players_metrics_HT_L9G
+        - players_metrics_RT_L9G
+        - players_metrics_HT_L8G
+        - players_metrics_RT_L8G
+        - players_metrics_HT_L7G
+        - players_metrics_RT_L7G
+        - players_metrics_HT_L6G
+        - players_metrics_RT_L6G
+        - players_metrics_HT_L5G
+        - players_metrics_RT_L5G
+        - players_metrics_HT_L4G
+        - players_metrics_RT_L4G
+        - players_metrics_HT_L3G
+        - players_metrics_RT_L3G
+        - players_metrics_HT_L2G
+        - players_metrics_RT_L2G
+        - players_metrics_HT_LG
+        - players_metrics_RT_LG
+    hyperopt:
+        fmin_max_evals: 200
+        hyperparam_space:
+            learning_rate: hp.uniform('learning_rate', .001, .1)
+            subsample: hp.quniform('subsample', 0.6, 1, .05)
+            num_leaves: scope.int(hp.quniform('num_leaves', 4, 64, 1))
+            min_data_in_leaf: scope.int(hp.quniform('min_data_in_leaf', 5, 100, 5))
+            reg_alpha: hp.uniform("reg_alpha", 0.0, 1.0)
+            reg_lambda: hp.uniform("reg_lambda", 0.0, 1.0)
+            colsample_bytree: hp.uniform('colsample_bytree', 0.6, 1.0)    
+            
+- scenario_name : "GBM_ht_cover_spread_outcome_model_build_all_features"
+  scenario_param:
+    inputs_path: '~/NBA_Pro_Line_Analytics/model_build_data/NBA_Team_Stats_2010-2019_Rolling_Avg_Win_Loss_pts_diff_player_features/model_build_validation.csv'
+    results_path: '~/NBA_Pro_Line_Analytics/model_scenario/pro_line_model_build_all_params/'
+    seed: 2454371
+    target: 'ht_spread_covered'
+    candidate_variable_set:
+        - average_metrics_HT_L10G
+        - average_metrics_RT_L10G
+        - average_metrics_HT_L9G
+        - average_metrics_RT_L9G
+        - average_metrics_HT_L8G
+        - average_metrics_RT_L8G
+        - average_metrics_HT_L7G
+        - average_metrics_RT_L7G
+        - average_metrics_HT_L6G
+        - average_metrics_RT_L6G
+        - average_metrics_HT_L5G
+        - average_metrics_RT_L5G
+        - average_metrics_HT_L4G
+        - average_metrics_RT_L4G
+        - average_metrics_HT_L3G
+        - average_metrics_RT_L3G
+        - average_metrics_HT_L2G
+        - average_metrics_RT_L2G
+        - average_metrics_HT_LG
+        - average_metrics_RT_LG
+        - outcome_metrics_HT_L10G
+        - outcome_metrics_RT_L10G
+        - outcome_metrics_HT_L9G
+        - outcome_metrics_RT_L9G
+        - outcome_metrics_HT_L8G
+        - outcome_metrics_RT_L8G
+        - outcome_metrics_HT_L7G
+        - outcome_metrics_RT_L7G
+        - outcome_metrics_HT_L6G
+        - outcome_metrics_RT_L6G
+        - outcome_metrics_HT_L5G
+        - outcome_metrics_RT_L5G
+        - outcome_metrics_HT_L4G
+        - outcome_metrics_RT_L4G
+        - outcome_metrics_HT_L3G
+        - outcome_metrics_RT_L3G
+        - outcome_metrics_HT_L2G
+        - outcome_metrics_RT_L2G
+        - outcome_metrics_HT_LG
+        - outcome_metrics_RT_LG
+        - players_metrics_HT_L10G
+        - players_metrics_RT_L10G
+        - players_metrics_HT_L9G
+        - players_metrics_RT_L9G
+        - players_metrics_HT_L8G
+        - players_metrics_RT_L8G
+        - players_metrics_HT_L7G
+        - players_metrics_RT_L7G
+        - players_metrics_HT_L6G
+        - players_metrics_RT_L6G
+        - players_metrics_HT_L5G
+        - players_metrics_RT_L5G
+        - players_metrics_HT_L4G
+        - players_metrics_RT_L4G
+        - players_metrics_HT_L3G
+        - players_metrics_RT_L3G
+        - players_metrics_HT_L2G
+        - players_metrics_RT_L2G
+        - players_metrics_HT_LG
+        - players_metrics_RT_LG
+        - ht_spread_line
+    hyperopt:
+        fmin_max_evals: 200
+        hyperparam_space:
+            learning_rate: hp.uniform('learning_rate', .001, .1)
+            subsample: hp.quniform('subsample', 0.6, 1, .05)
+            num_leaves: scope.int(hp.quniform('num_leaves', 4, 64, 1))
+            min_data_in_leaf: scope.int(hp.quniform('min_data_in_leaf', 5, 100, 5))
+            reg_alpha: hp.uniform("reg_alpha", 0.0, 1.0)
+            reg_lambda: hp.uniform("reg_lambda", 0.0, 1.0)
+            colsample_bytree: hp.uniform('colsample_bytree', 0.6, 1.0)    
+            
+- scenario_name : "GBM_over_under_outcome_model_build_all_features"
+  scenario_param:
+    inputs_path: '~/NBA_Pro_Line_Analytics/model_build_data/NBA_Team_Stats_2010-2019_Rolling_Avg_Win_Loss_pts_diff_player_features/model_build_validation.csv'
+    results_path: '~/NBA_Pro_Line_Analytics/model_scenario/pro_line_model_build_all_params/'
+    seed: 2454371
+    target: 'cover_over_line'
+    candidate_variable_set:
+        - average_metrics_HT_L10G
+        - average_metrics_RT_L10G
+        - average_metrics_HT_L9G
+        - average_metrics_RT_L9G
+        - average_metrics_HT_L8G
+        - average_metrics_RT_L8G
+        - average_metrics_HT_L7G
+        - average_metrics_RT_L7G
+        - average_metrics_HT_L6G
+        - average_metrics_RT_L6G
+        - average_metrics_HT_L5G
+        - average_metrics_RT_L5G
+        - average_metrics_HT_L4G
+        - average_metrics_RT_L4G
+        - average_metrics_HT_L3G
+        - average_metrics_RT_L3G
+        - average_metrics_HT_L2G
+        - average_metrics_RT_L2G
+        - average_metrics_HT_LG
+        - average_metrics_RT_LG
+        - outcome_metrics_HT_L10G
+        - outcome_metrics_RT_L10G
+        - outcome_metrics_HT_L9G
+        - outcome_metrics_RT_L9G
+        - outcome_metrics_HT_L8G
+        - outcome_metrics_RT_L8G
+        - outcome_metrics_HT_L7G
+        - outcome_metrics_RT_L7G
+        - outcome_metrics_HT_L6G
+        - outcome_metrics_RT_L6G
+        - outcome_metrics_HT_L5G
+        - outcome_metrics_RT_L5G
+        - outcome_metrics_HT_L4G
+        - outcome_metrics_RT_L4G
+        - outcome_metrics_HT_L3G
+        - outcome_metrics_RT_L3G
+        - outcome_metrics_HT_L2G
+        - outcome_metrics_RT_L2G
+        - outcome_metrics_HT_LG
+        - outcome_metrics_RT_LG
+        - players_metrics_HT_L10G
+        - players_metrics_RT_L10G
+        - players_metrics_HT_L9G
+        - players_metrics_RT_L9G
+        - players_metrics_HT_L8G
+        - players_metrics_RT_L8G
+        - players_metrics_HT_L7G
+        - players_metrics_RT_L7G
+        - players_metrics_HT_L6G
+        - players_metrics_RT_L6G
+        - players_metrics_HT_L5G
+        - players_metrics_RT_L5G
+        - players_metrics_HT_L4G
+        - players_metrics_RT_L4G
+        - players_metrics_HT_L3G
+        - players_metrics_RT_L3G
+        - players_metrics_HT_L2G
+        - players_metrics_RT_L2G
+        - players_metrics_HT_LG
+        - players_metrics_RT_LG
+        - over_under_line
+    hyperopt:
+        fmin_max_evals: 200
+        hyperparam_space:
+            learning_rate: hp.uniform('learning_rate', .001, .1)
+            subsample: hp.quniform('subsample', 0.6, 1, .05)
+            num_leaves: scope.int(hp.quniform('num_leaves', 4, 64, 1))
+            min_data_in_leaf: scope.int(hp.quniform('min_data_in_leaf', 5, 100, 5))
+            reg_alpha: hp.uniform("reg_alpha", 0.0, 1.0)
+            reg_lambda: hp.uniform("reg_lambda", 0.0, 1.0)
+            colsample_bytree: hp.uniform('colsample_bytree', 0.6, 1.0)    
+- scenario_name : "GBM_tot_score_prediction_model_build_all_features"
+  scenario_param:
+    inputs_path: '~/NBA_Pro_Line_Analytics/model_build_data/NBA_Team_Stats_2010-2019_Rolling_Avg_Win_Loss_pts_diff_player_features/model_build_validation.csv'
+    results_path: '~/NBA_Pro_Line_Analytics/model_scenario/pro_line_model_build_all_params/'
+    seed: 2454371
+    target: 'TOT_Final_Score'
+    candidate_variable_set:
+        - average_metrics_HT_L10G
+        - average_metrics_RT_L10G
+        - average_metrics_HT_L9G
+        - average_metrics_RT_L9G
+        - average_metrics_HT_L8G
+        - average_metrics_RT_L8G
+        - average_metrics_HT_L7G
+        - average_metrics_RT_L7G
+        - average_metrics_HT_L6G
+        - average_metrics_RT_L6G
+        - average_metrics_HT_L5G
+        - average_metrics_RT_L5G
+        - average_metrics_HT_L4G
+        - average_metrics_RT_L4G
+        - average_metrics_HT_L3G
+        - average_metrics_RT_L3G
+        - average_metrics_HT_L2G
+        - average_metrics_RT_L2G
+        - average_metrics_HT_LG
+        - average_metrics_RT_LG
+        - outcome_metrics_HT_L10G
+        - outcome_metrics_RT_L10G
+        - outcome_metrics_HT_L9G
+        - outcome_metrics_RT_L9G
+        - outcome_metrics_HT_L8G
+        - outcome_metrics_RT_L8G
+        - outcome_metrics_HT_L7G
+        - outcome_metrics_RT_L7G
+        - outcome_metrics_HT_L6G
+        - outcome_metrics_RT_L6G
+        - outcome_metrics_HT_L5G
+        - outcome_metrics_RT_L5G
+        - outcome_metrics_HT_L4G
+        - outcome_metrics_RT_L4G
+        - outcome_metrics_HT_L3G
+        - outcome_metrics_RT_L3G
+        - outcome_metrics_HT_L2G
+        - outcome_metrics_RT_L2G
+        - outcome_metrics_HT_LG
+        - outcome_metrics_RT_LG
+        - players_metrics_HT_L10G
+        - players_metrics_RT_L10G
+        - players_metrics_HT_L9G
+        - players_metrics_RT_L9G
+        - players_metrics_HT_L8G
+        - players_metrics_RT_L8G
+        - players_metrics_HT_L7G
+        - players_metrics_RT_L7G
+        - players_metrics_HT_L6G
+        - players_metrics_RT_L6G
+        - players_metrics_HT_L5G
+        - players_metrics_RT_L5G
+        - players_metrics_HT_L4G
+        - players_metrics_RT_L4G
+        - players_metrics_HT_L3G
+        - players_metrics_RT_L3G
+        - players_metrics_HT_L2G
+        - players_metrics_RT_L2G
+        - players_metrics_HT_LG
+        - players_metrics_RT_LG
+        - over_under_line
+        - ht_spread_line
+    hyperopt:
+        fmin_max_evals: 200
+        hyperparam_space:
+            learning_rate: hp.uniform('learning_rate', .001, .1)
+            subsample: hp.quniform('subsample', 0.6, 1, .05)
+            num_leaves: scope.int(hp.quniform('num_leaves', 4, 64, 1))
+            min_data_in_leaf: scope.int(hp.quniform('min_data_in_leaf', 5, 100, 5))
+            reg_alpha: hp.uniform("reg_alpha", 0.0, 1.0)
+            reg_lambda: hp.uniform("reg_lambda", 0.0, 1.0)
+            colsample_bytree: hp.uniform('colsample_bytree', 0.6, 1.0)  

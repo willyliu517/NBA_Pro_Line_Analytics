@@ -1,0 +1,950 @@
+Num_Players_30plus_PPG_L10G: {Description: Number of players averaging 30+ PPG over last 10 games, Null if not applicable,
+                             Parameter_Name: Num_Players_30plus_PPG_L10G,
+                             Feature_required: Player_PPG_AVG_L10G,
+                             Floor: 30
+                             }
+Num_Players_30plus_PPG_L9G: {Description: Number of players averaging 30+ PPG over last 9 games, Null if not applicable,
+                             Parameter_Name: Num_Players_30plus_PPG_L9G,
+                             Feature_required: Player_PPG_AVG_L9G,
+                             Floor: 30
+                             }
+Num_Players_30plus_PPG_L8G: {Description: Number of players averaging 30+ PPG over last 8 games, Null if not applicable,
+                             Parameter_Name: Num_Players_30plus_PPG_L8G,
+                             Feature_required: Player_PPG_AVG_L8G,
+                             Floor: 30
+                             }
+Num_Players_30plus_PPG_L7G: {Description: Number of players averaging 30+ PPG over last 7 games, Null if not applicable,
+                             Parameter_Name: Num_Players_30plus_PPG_L7G,
+                             Feature_required: Player_PPG_AVG_L7G,
+                             Floor: 30
+                             }
+Num_Players_30plus_PPG_L6G: {Description: Number of players averaging 30+ PPG over last 6 games, Null if not applicable,
+                             Parameter_Name: Num_Players_30plus_PPG_L6G,
+                             Feature_required: Player_PPG_AVG_L6G,
+                             Floor: 30
+                             }
+Num_Players_30plus_PPG_L5G: {Description: Number of players averaging 30+ PPG over last 5 games, Null if not applicable,
+                             Parameter_Name: Num_Players_30plus_PPG_L5G,
+                             Feature_required: Player_PPG_AVG_L5G,
+                             Floor: 30
+                             }
+Num_Players_30plus_PPG_L4G: {Description: Number of players averaging 30+ PPG over last 4 games, Null if not applicable,
+                             Parameter_Name: Num_Players_30plus_PPG_L4G,
+                             Feature_required: Player_PPG_AVG_L4G,
+                             Floor: 30
+                             }
+Num_Players_30plus_PPG_L3G: {Description: Number of players averaging 30+ PPG over last 3 games, Null if not applicable,
+                             Parameter_Name: Num_Players_30plus_PPG_L3G,
+                             Feature_required: Player_PPG_AVG_L3G,
+                             Floor: 30
+                             }
+Num_Players_30plus_PPG_L2G: {Description: Number of players averaging 30+ PPG over last 2 games, Null if not applicable,
+                             Parameter_Name: Num_Players_30plus_PPG_L2G,
+                             Feature_required: Player_PPG_AVG_L2G,
+                             Floor: 30
+                             }
+Num_Players_30plus_PPG_LG: {Description: Number of players averaging 30+ PPG over last game, Null if not applicable,
+                             Parameter_Name: Num_Players_30plus_PPG_LG,
+                             Feature_required: Player_PPG_AVG_LG,
+                             Floor: 30
+                             }
+Num_Players_25plus_PPG_L10G: {Description: Number of players averaging 25+ PPG over last 10 games, Null if not applicable,
+                             Parameter_Name: Num_Players_25plus_PPG_L10G,
+                             Feature_required: Player_PPG_AVG_L10G,
+                             Floor: 25
+                             }
+Num_Players_25plus_PPG_L9G: {Description: Number of players averaging 25+ PPG over last 9 games, Null if not applicable,
+                             Parameter_Name: Num_Players_25plus_PPG_L9G,
+                             Feature_required: Player_PPG_AVG_L9G,
+                             Floor: 25
+                             }
+Num_Players_25plus_PPG_L8G: {Description: Number of players averaging 25+ PPG over last 8 games, Null if not applicable,
+                             Parameter_Name: Num_Players_25plus_PPG_L8G,
+                             Feature_required: Player_PPG_AVG_L8G,
+                             Floor: 25
+                             }
+Num_Players_25plus_PPG_L7G: {Description: Number of players averaging 25+ PPG over last 7 games, Null if not applicable,
+                             Parameter_Name: Num_Players_25plus_PPG_L7G,
+                             Feature_required: Player_PPG_AVG_L7G,
+                             Floor: 25
+                             }
+Num_Players_25plus_PPG_L6G: {Description: Number of players averaging 25+ PPG over last 6 games, Null if not applicable,
+                             Parameter_Name: Num_Players_25plus_PPG_L6G,
+                             Feature_required: Player_PPG_AVG_L6G,
+                             Floor: 25
+                             }
+Num_Players_25plus_PPG_L5G: {Description: Number of players averaging 25+ PPG over last 5 games, Null if not applicable,
+                             Parameter_Name: Num_Players_25plus_PPG_L5G,
+                             Feature_required: Player_PPG_AVG_L5G,
+                             Floor: 25
+                             }
+Num_Players_25plus_PPG_L4G: {Description: Number of players averaging 25+ PPG over last 4 games, Null if not applicable,
+                             Parameter_Name: Num_Players_25plus_PPG_L4G,
+                             Feature_required: Player_PPG_AVG_L4G,
+                             Floor: 25
+                             }
+Num_Players_25plus_PPG_L3G: {Description: Number of players averaging 25+ PPG over last 3 games, Null if not applicable,
+                             Parameter_Name: Num_Players_25plus_PPG_L3G,
+                             Feature_required: Player_PPG_AVG_L3G,
+                             Floor: 25
+                             }
+Num_Players_25plus_PPG_L2G: {Description: Number of players averaging 25+ PPG over last 2 games, Null if not applicable,
+                             Parameter_Name: Num_Players_25plus_PPG_L2G,
+                             Feature_required: Player_PPG_AVG_L2G,
+                             Floor: 25
+                             }
+Num_Players_25plus_PPG_LG: {Description: Number of players averaging 25+ PPG over last game, Null if not applicable,
+                             Parameter_Name: Num_Players_25plus_PPG_LG,
+                             Feature_required: Player_PPG_AVG_LG,
+                             Floor: 25
+                             }
+Num_Players_20plus_PPG_L10G: {Description: Number of players averaging 20+ PPG over last 10 games, Null if not applicable,
+                             Parameter_Name: Num_Players_20plus_PPG_L10G,
+                             Feature_required: Player_PPG_AVG_L10G,
+                             Floor: 20
+                             }
+Num_Players_20plus_PPG_L9G: {Description: Number of players averaging 20+ PPG over last 9 games, Null if not applicable,
+                             Parameter_Name: Num_Players_20plus_PPG_L9G,
+                             Feature_required: Player_PPG_AVG_L9G,
+                             Floor: 20
+                             }
+Num_Players_20plus_PPG_L8G: {Description: Number of players averaging 20+ PPG over last 8 games, Null if not applicable,
+                             Parameter_Name: Num_Players_20plus_PPG_L8G,
+                             Feature_required: Player_PPG_AVG_L8G,
+                             Floor: 20
+                             }
+Num_Players_20plus_PPG_L7G: {Description: Number of players averaging20+ PPG over last 7 games, Null if not applicable,
+                             Parameter_Name: Num_Players_20plus_PPG_L7G,
+                             Feature_required: Player_PPG_AVG_L7G,
+                             Floor: 20
+                             }
+Num_Players_20plus_PPG_L6G: {Description: Number of players averaging20+ PPG over last 6 games, Null if not applicable,
+                             Parameter_Name: Num_Players_20plus_PPG_L6G,
+                             Feature_required: Player_PPG_AVG_L6G,
+                             Floor: 20
+                             }
+Num_Players_20plus_PPG_L5G: {Description: Number of players averaging20+ PPG over last 5 games, Null if not applicable,
+                             Parameter_Name: Num_Players_20plus_PPG_L5G,
+                             Feature_required: Player_PPG_AVG_L5G,
+                             Floor: 20
+                             }
+Num_Players_20plus_PPG_L4G: {Description: Number of players averaging20+ PPG over last 4 games, Null if not applicable,
+                             Parameter_Name: Num_Players_20plus_PPG_L4G,
+                             Feature_required: Player_PPG_AVG_L4G,
+                             Floor: 20
+                             }
+Num_Players_20plus_PPG_L3G: {Description: Number of players averaging20+ PPG over last 3 games, Null if not applicable,
+                             Parameter_Name: Num_Players_20plus_PPG_L3G,
+                             Feature_required: Player_PPG_AVG_L3G,
+                             Floor: 20
+                             }
+Num_Players_20plus_PPG_L2G: {Description: Number of players averaging20+ PPG over last 2 games, Null if not applicable,
+                             Parameter_Name: Num_Players_20plus_PPG_L2G,
+                             Feature_required: Player_PPG_AVG_L2G,
+                             Floor: 20
+                             }
+Num_Players_20plus_PPG_LG: {Description: Number of players averaging20+ PPG over the last game, Null if not applicable,
+                             Parameter_Name: Num_Players_20plus_PPG_LG,
+                             Feature_required: Player_PPG_AVG_LG,
+                             Floor: 20
+                             }
+Num_Players_15plus_PPG_L10G: {Description: Number of players averaging 15+ PPG over last 10 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_PPG_L10G,
+                             Feature_required: Player_PPG_AVG_L10G,
+                             Floor: 15
+                             }
+Num_Players_15plus_PPG_L9G: {Description: Number of players averaging 15+ PPG over last 9 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_PPG_L9G,
+                             Feature_required: Player_PPG_AVG_L9G,
+                             Floor: 15
+                             }
+Num_Players_15plus_PPG_L8G: {Description: Number of players averaging 15+ PPG over last 8 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_PPG_L8G,
+                             Feature_required: Player_PPG_AVG_L8G,
+                             Floor: 15
+                             }
+Num_Players_15plus_PPG_L7G: {Description: Number of players averaging 15+ PPG over last 7 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_PPG_L7G,
+                             Feature_required: Player_PPG_AVG_L7G,
+                             Floor: 15
+                             }
+Num_Players_15plus_PPG_L6G: {Description: Number of players averaging 15+ PPG over last 6 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_PPG_L6G,
+                             Feature_required: Player_PPG_AVG_L6G,
+                             Floor: 15
+                             }
+Num_Players_15plus_PPG_L5G: {Description: Number of players averaging 15+ PPG over last 5 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_PPG_L5G,
+                             Feature_required: Player_PPG_AVG_L5G,
+                             Floor: 15
+                             }
+Num_Players_15plus_PPG_L4G: {Description: Number of players averaging 15+ PPG over last 4 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_PPG_L4G,
+                             Feature_required: Player_PPG_AVG_L4G,
+                             Floor: 15
+                             }
+Num_Players_15plus_PPG_L3G: {Description: Number of players averaging 15+ PPG over last 3 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_PPG_L3G,
+                             Feature_required: Player_PPG_AVG_L3G,
+                             Floor: 15
+                             }
+Num_Players_15plus_PPG_L2G: {Description: Number of players averaging 15+ PPG over last 2 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_PPG_L2G,
+                             Feature_required: Player_PPG_AVG_L2G,
+                             Floor: 15
+                             }
+Num_Players_15plus_PPG_LG: {Description: Number of players averaging 15+ PPG over last game, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_PPG_LG,
+                             Feature_required: Player_PPG_AVG_LG,
+                             Floor: 15
+                             }
+Num_Players_15plus_TOT_L10G: {Description: Number of players averaging 15+ Rebounds over last 10 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_TOT_L10G,
+                             Feature_required: Player_TOT_AVG_L10G,
+                             Floor: 15
+                             }
+Num_Players_15plus_TOT_L9G: {Description: Number of players averaging 15+ Rebounds over last 9 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_TOT_L9G,
+                             Feature_required: Player_TOT_AVG_L9G,
+                             Floor: 15
+                             }
+Num_Players_15plus_TOT_L8G: {Description: Number of players averaging 15+ Rebounds over last 8 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_TOT_L8G,
+                             Feature_required: Player_TOT_AVG_L8G,
+                             Floor: 15
+                             }
+Num_Players_15plus_TOT_L7G: {Description: Number of players averaging 15+ Rebounds over last 7 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_TOT_L7G,
+                             Feature_required: Player_TOT_AVG_L7G,
+                             Floor: 15
+                             }
+Num_Players_15plus_TOT_L6G: {Description: Number of players averaging 15+ Rebounds over last 6 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_TOT_L6G,
+                             Feature_required: Player_TOT_AVG_L6G,
+                             Floor: 15
+                             }
+Num_Players_15plus_TOT_L5G: {Description: Number of players averaging 15+ Rebounds over last 5 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_TOT_L5G,
+                             Feature_required: Player_TOT_AVG_L5G,
+                             Floor: 15
+                             }
+Num_Players_15plus_TOT_L4G: {Description: Number of players averaging 15+ Rebounds over last 4 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_TOT_L4G,
+                             Feature_required: Player_TOT_AVG_L4G,
+                             Floor: 15
+                             }
+Num_Players_15plus_TOT_L3G: {Description: Number of players averaging 15+ Rebounds over last 3 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_TOT_L3G,
+                             Feature_required: Player_TOT_AVG_L3G,
+                             Floor: 15
+                             }
+Num_Players_15plus_TOT_L2G: {Description: Number of players averaging 15+ Rebounds over last 2 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_TOT_L2G,
+                             Feature_required: Player_TOT_AVG_L2G,
+                             Floor: 15
+                             }
+Num_Players_15plus_TOT_LG: {Description: Number of players averaging 15+ Rebounds over last 1 game, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_TOT_LG,
+                             Feature_required: Player_TOT_AVG_LG,
+                             Floor: 15
+                             }
+Num_Players_10plus_TOT_L10G: {Description: Number of players averaging 10+ Rebounds over last 10 games, Null if not applicable,
+                             Parameter_Name: Num_Players_10plus_TOT_L10G,
+                             Feature_required: Player_TOT_AVG_L10G,
+                             Floor: 10
+                             }
+Num_Players_10plus_TOT_L9G: {Description: Number of players averaging 10+ Rebounds over last 9 games, Null if not applicable,
+                             Parameter_Name: Num_Players_10plus_TOT_L9G,
+                             Feature_required: Player_TOT_AVG_L9G,
+                             Floor: 10
+                             }
+Num_Players_10plus_TOT_L8G: {Description: Number of players averaging 10+ Rebounds over last 8 games, Null if not applicable,
+                             Parameter_Name: Num_Players_10plus_TOT_L8G,
+                             Feature_required: Player_TOT_AVG_L8G,
+                             Floor: 10
+                             }
+Num_Players_10plus_TOT_L7G: {Description: Number of players averaging 10+ Rebounds over last 7 games, Null if not applicable,
+                             Parameter_Name: Num_Players_10plus_TOT_L7G,
+                             Feature_required: Player_TOT_AVG_L7G,
+                             Floor: 10
+                             }
+Num_Players_10plus_TOT_L6G: {Description: Number of players averaging 10+ Rebounds over last 6 games, Null if not applicable,
+                             Parameter_Name: Num_Players_10plus_TOT_L6G,
+                             Feature_required: Player_TOT_AVG_L6G,
+                             Floor: 10
+                             }
+Num_Players_10plus_TOT_L5G: {Description: Number of players averaging 10+ Rebounds over last 5 games, Null if not applicable,
+                             Parameter_Name: Num_Players_10plus_TOT_L5G,
+                             Feature_required: Player_TOT_AVG_L5G,
+                             Floor: 10
+                             }
+Num_Players_10plus_TOT_L4G: {Description: Number of players averaging 10+ Rebounds over last 4 games, Null if not applicable,
+                             Parameter_Name: Num_Players_10plus_TOT_L4G,
+                             Feature_required: Player_TOT_AVG_L4G,
+                             Floor: 10
+                             }
+Num_Players_10plus_TOT_L3G: {Description: Number of players averaging 10+ Rebounds over last 3 games, Null if not applicable,
+                             Parameter_Name: Num_Players_10plus_TOT_L3G,
+                             Feature_required: Player_TOT_AVG_L3G,
+                             Floor: 10
+                             }
+Num_Players_10plus_TOT_L2G: {Description: Number of players averaging 10+ Rebounds over last 2 games, Null if not applicable,
+                             Parameter_Name: Num_Players_10plus_TOT_L2G,
+                             Feature_required: Player_TOT_AVG_L2G,
+                             Floor: 10
+                             }
+Num_Players_10plus_TOT_LG: {Description: Number of players averaging 10+ Rebounds over last game, Null if not applicable,
+                             Parameter_Name: Num_Players_10plus_TOT_LG,
+                             Feature_required: Player_TOT_AVG_LG,
+                             Floor: 10
+                             }
+Num_Players_5plus_TOT_L10G: {Description: Number of players averaging 5+ Rebounds over last 10 games, Null if not applicable,
+                             Parameter_Name: Num_Players_5plus_TOT_L10G,
+                             Feature_required: Player_TOT_AVG_L10G,
+                             Floor: 5
+                            }
+Num_Players_5plus_TOT_L9G: {Description: Number of players averaging 5+ Rebounds over last 9 games, Null if not applicable,
+                             Parameter_Name: Num_Players_5plus_TOT_L9G,
+                             Feature_required: Player_TOT_AVG_L9G,
+                             Floor: 5
+                            }
+Num_Players_5plus_TOT_L8G: {Description: Number of players averaging 5+ Rebounds over last 8 games, Null if not applicable,
+                             Parameter_Name: Num_Players_5plus_TOT_L8G,
+                             Feature_required: Player_TOT_AVG_L8G,
+                             Floor: 5
+                            }
+Num_Players_5plus_TOT_L7G: {Description: Number of players averaging 5+ Rebounds over last 7 games, Null if not applicable,
+                             Parameter_Name: Num_Players_5plus_TOT_L7G,
+                             Feature_required: Player_TOT_AVG_L7G,
+                             Floor: 5
+                            }
+Num_Players_5plus_TOT_L6G: {Description: Number of players averaging 5+ Rebounds over last 6 games, Null if not applicable,
+                             Parameter_Name: Num_Players_5plus_TOT_L6G,
+                             Feature_required: Player_TOT_AVG_L6G,
+                             Floor: 10
+                            }
+Num_Players_5plus_TOT_L5G: {Description: Number of players averaging 5+ Rebounds over last 5 games, Null if not applicable,
+                             Parameter_Name: Num_Players_5plus_TOT_L5G,
+                             Feature_required: Player_TOT_AVG_L5G,
+                             Floor: 5
+                            }
+Num_Players_5plus_TOT_L4G: {Description: Number of players averaging 5+ Rebounds over last 4 games, Null if not applicable,
+                             Parameter_Name: Num_Players_5plus_TOT_L4G,
+                             Feature_required: Player_TOT_AVG_L4G,
+                             Floor: 5
+                            }
+Num_Players_5plus_TOT_L3G: {Description: Number of players averaging 5+ Rebounds over last 3 games, Null if not applicable,
+                             Parameter_Name: Num_Players_5plus_TOT_L3G,
+                             Feature_required: Player_TOT_AVG_L3G,
+                             Floor: 5
+                            }
+Num_Players_5plus_TOT_L2G: {Description: Number of players averaging 5+ Rebounds over last 2 games, Null if not applicable,
+                             Parameter_Name: Num_Players_5plus_TOT_L2G,
+                             Feature_required: Player_TOT_AVG_L2G,
+                             Floor: 5
+                            }
+Num_Players_5plus_TOT_LG: {Description: Number of players averaging 5+ Rebounds over last game, Null if not applicable,
+                             Parameter_Name: Num_Players_5plus_TOT_LG,
+                             Feature_required: Player_TOT_AVG_LG,
+                             Floor: 5
+                            }
+Num_Players_15plus_APG_L10G: {Description: Number of players averaging 15+ APG over last 10 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_APG_L10G,
+                             Feature_required: Player_APG_AVG_L10G,
+                             Floor: 15
+                             }
+Num_Players_15plus_APG_L9G: {Description: Number of players averaging 15+ APG over last 9 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_APG_L9G,
+                             Feature_required: Player_APG_AVG_L9G,
+                             Floor: 15
+                             }
+Num_Players_15plus_APG_L8G: {Description: Number of players averaging 15+ APG over last 8 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_APG_L8G,
+                             Feature_required: Player_APG_AVG_L8G,
+                             Floor: 15
+                             }
+Num_Players_15plus_APG_L7G: {Description: Number of players averaging 15+ APG over last 7 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_APG_L7G,
+                             Feature_required: Player_APG_AVG_L7G,
+                             Floor: 15
+                             }
+Num_Players_15plus_APG_L6G: {Description: Number of players averaging 15+ APG over last 6 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_APG_L6G,
+                             Feature_required: Player_APG_AVG_L6G,
+                             Floor: 15
+                             }
+Num_Players_15plus_APG_L5G: {Description: Number of players averaging 15+ APG over last 5 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_APG_L5G,
+                             Feature_required: Player_APG_AVG_L5G,
+                             Floor: 15
+                             }
+Num_Players_15plus_APG_L4G: {Description: Number of players averaging 15+ APG over last 4 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_APG_L4G,
+                             Feature_required: Player_APG_AVG_L4G,
+                             Floor: 15
+                             }
+Num_Players_15plus_APG_L3G: {Description: Number of players averaging 15+ APG over last 3 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_APG_L3G,
+                             Feature_required: Player_APG_AVG_L3G,
+                             Floor: 15
+                             }
+Num_Players_15plus_APG_L2G: {Description: Number of players averaging 15+ APG over last 2 games, Null if not applicable,
+                             Parameter_Name: Num_Players_15plus_APG_L2G,
+                             Feature_required: Player_APG_AVG_L2G,
+                             Floor: 15
+                             }
+Num_Players_15plus_APG_LG: {Description: Number of players averaging 15+ APG over last game, Null if not applicable,
+                            Parameter_Name: Num_Players_15plus_APG_LG,
+                            Feature_required: Player_APG_AVG_LG,
+                            Floor: 15
+                            }
+Num_Players_10plus_APG_L10G: {Description: Number of players averaging 10+ APG over last 10 games, Null if not applicable,
+                             Parameter_Name: Num_Players_10plus_APG_L10G,
+                             Feature_required: Player_APG_AVG_L10G,
+                             Floor: 10
+                             }
+Num_Players_10plus_APG_L9G: {Description: Number of players averaging 10+ APG over last 9 games, Null if not applicable,
+                             Parameter_Name: Num_Players_10plus_APG_L9G,
+                             Feature_required: Player_APG_AVG_L9G,
+                             Floor: 10
+                             }
+Num_Players_10plus_APG_L8G: {Description: Number of players averaging 10+ APG over last 8 games, Null if not applicable,
+                             Parameter_Name: Num_Players_10plus_APG_L8G,
+                             Feature_required: Player_APG_AVG_L8G,
+                             Floor: 10
+                             }
+Num_Players_10plus_APG_L7G: {Description: Number of players averaging 10+ APG over last 7 games, Null if not applicable,
+                             Parameter_Name: Num_Players_10plus_APG_L7G,
+                             Feature_required: Player_APG_AVG_L7G,
+                             Floor: 10
+                             }
+Num_Players_10plus_APG_L6G: {Description: Number of players averaging 10+ APG over last 6 games, Null if not applicable,
+                             Parameter_Name: Num_Players_10plus_APG_L6G,
+                             Feature_required: Player_APG_AVG_L6G,
+                             Floor: 10
+                             }
+Num_Players_10plus_APG_L5G: {Description: Number of players averaging 10+ APG over last 5 games, Null if not applicable,
+                             Parameter_Name: Num_Players_10plus_APG_L5G,
+                             Feature_required: Player_APG_AVG_L5G,
+                             Floor: 10
+                             }
+Num_Players_10plus_APG_L4G: {Description: Number of players averaging 10+ APG over last 4 games, Null if not applicable,
+                             Parameter_Name: Num_Players_10plus_APG_L4G,
+                             Feature_required: Player_APG_AVG_L4G,
+                             Floor: 10
+                             }
+Num_Players_10plus_APG_L3G: {Description: Number of players averaging 10+ APG over last 3 games, Null if not applicable,
+                             Parameter_Name: Num_Players_10plus_APG_L3G,
+                             Feature_required: Player_APG_AVG_L3G,
+                             Floor: 10
+                             }
+Num_Players_10plus_APG_L2G: {Description: Number of players averaging 10+ APG over last 2 games, Null if not applicable,
+                             Parameter_Name: Num_Players_10plus_APG_L2G,
+                             Feature_required: Player_APG_AVG_L2G,
+                             Floor: 10
+                             }
+Num_Players_10plus_APG_LG: {Description: Number of players averaging 10+ APG over last game, Null if not applicable,
+                             Parameter_Name: Num_Players_10plus_APG_LG,
+                             Feature_required: Player_APG_AVG_LG,
+                             Floor: 10
+                             }
+Num_Players_5plus_APG_L10G: {Description: Number of players averaging 5+ APG over last 10 games, Null if not applicable,
+                            Parameter_Name: Num_Players_5plus_APG_L10G,
+                            Feature_required: Player_APG_AVG_L10G,
+                            Floor: 5
+                            }
+Num_Players_5plus_APG_L9G: {Description: Number of players averaging 5+ APG over last 9 games, Null if not applicable,
+                            Parameter_Name: Num_Players_5plus_APG_L9G,
+                            Feature_required: Player_APG_AVG_L9G,
+                            Floor: 5
+                            }
+Num_Players_5plus_APG_L8G: {Description: Number of players averaging 5+ APG over last 8 games, Null if not applicable,
+                            Parameter_Name: Num_Players_5plus_APG_L8G,
+                            Feature_required: Player_APG_AVG_L8G,
+                            Floor: 5
+                            }
+Num_Players_5plus_APG_L7G: {Description: Number of players averaging 5+ APG over last 7 games, Null if not applicable,
+                            Parameter_Name: Num_Players_5plus_APG_L7G,
+                            Feature_required: Player_APG_AVG_L7G,
+                            Floor: 5
+                            }
+Num_Players_5plus_APG_L6G: {Description: Number of players averaging 5+ APG over last 6 games, Null if not applicable,
+                            Parameter_Name: Num_Players_5plus_APG_L6G,
+                            Feature_required: Player_APG_AVG_L6G,
+                            Floor: 5
+                            }
+Num_Players_5plus_APG_L5G: {Description: Number of players averaging 5+ APG over last 5 games, Null if not applicable,
+                            Parameter_Name: Num_Players_5plus_APG_L5G,
+                            Feature_required: Player_APG_AVG_L5G,
+                            Floor: 5
+                            }
+Num_Players_5plus_APG_L4G: {Description: Number of players averaging 5+ APG over last 4 games, Null if not applicable,
+                            Parameter_Name: Num_Players_5plus_APG_L4G,
+                            Feature_required: Player_APG_AVG_L4G,
+                            Floor: 5
+                            }
+Num_Players_5plus_APG_L3G: {Description: Number of players averaging 5+ APG over last 3 games, Null if not applicable,
+                            Parameter_Name: Num_Players_5plus_APG_L3G,
+                            Feature_required: Player_APG_AVG_L3G,
+                            Floor: 5
+                            }
+Num_Players_5plus_APG_L2G: {Description: Number of players averaging 5+ APG over last 2 games, Null if not applicable,
+                            Parameter_Name: Num_Players_5plus_APG_L2G,
+                            Feature_required: Player_APG_AVG_L2G,
+                            Floor: 5
+                            }
+Num_Players_5plus_APG_LG: {Description: Number of players averaging 5+ APG over last game, Null if not applicable,
+                            Parameter_Name: Num_Players_5plus_APG_LG,
+                            Feature_required: Player_APG_AVG_LG,
+                            Floor: 5
+                            }
+Num_Players_3plus_ST_L10G: {Description: Number of players averaging 3+ steals over last 10 games, Null if not applicable,
+                             Parameter_Name: Num_Players_3plus_ST_L10G,
+                             Feature_required: Player_ST_AVG_L10G,
+                             Floor: 3
+                             }
+Num_Players_3plus_ST_L9G: {Description: Number of players averaging 3+ steals over last 9 games, Null if not applicable,
+                             Parameter_Name: Num_Players_3plus_ST_L9G,
+                             Feature_required: Player_ST_AVG_L9G,
+                             Floor: 3
+                             }
+Num_Players_3plus_ST_L8G: {Description: Number of players averaging 3+ steals over last 8 games, Null if not applicable,
+                             Parameter_Name: Num_Players_3plus_ST_L8G,
+                             Feature_required: Player_ST_AVG_L8G,
+                             Floor: 3
+                             }
+Num_Players_3plus_ST_L7G: {Description: Number of players averaging 3+ steals over last 7 games, Null if not applicable,
+                             Parameter_Name: Num_Players_3plus_ST_L7G,
+                             Feature_required: Player_ST_AVG_L7G,
+                             Floor: 3
+                             }
+Num_Players_3plus_ST_L6G: {Description: Number of players averaging 3+ steals over last 6 games, Null if not applicable,
+                             Parameter_Name: Num_Players_3plus_ST_L6G,
+                             Feature_required: Player_ST_AVG_L6G,
+                             Floor: 3
+                             }
+Num_Players_3plus_ST_L5G: {Description: Number of players averaging 3+ steals over last 5 games, Null if not applicable,
+                             Parameter_Name: Num_Players_3plus_ST_L5G,
+                             Feature_required: Player_ST_AVG_L5G,
+                             Floor: 3
+                             }
+Num_Players_3plus_ST_L4G: {Description: Number of players averaging 3+ steals over last 4 games, Null if not applicable,
+                             Parameter_Name: Num_Players_3plus_ST_L4G,
+                             Feature_required: Player_ST_AVG_L4G,
+                             Floor: 3
+                             }
+Num_Players_3plus_ST_L3G: {Description: Number of players averaging 3+ steals over last 3 games, Null if not applicable,
+                             Parameter_Name: Num_Players_3plus_ST_L3G,
+                             Feature_required: Player_ST_AVG_L3G,
+                             Floor: 3
+                             }
+Num_Players_3plus_ST_L2G: {Description: Number of players averaging 3+ steals over last 2 games, Null if not applicable,
+                             Parameter_Name: Num_Players_3plus_ST_L2G,
+                             Feature_required: Player_ST_AVG_L2G,
+                             Floor: 3
+                             }
+Num_Players_3plus_ST_LG: {Description: Number of players averaging 3+ steals over last game, Null if not applicable,
+                             Parameter_Name: Num_Players_3plus_ST_LG,
+                             Feature_required: Player_ST_AVG_LG,
+                             Floor: 3
+                             }
+Num_Players_2plus_ST_L10G: {Description: Number of players averaging 2+ steals over last 10 games, Null if not applicable,
+                             Parameter_Name: Num_Players_2plus_ST_L10G,
+                             Feature_required: Player_ST_AVG_L10G,
+                             Floor: 2
+                             }
+Num_Players_2plus_ST_L9G: {Description: Number of players averaging 2+ steals over last 9 games, Null if not applicable,
+                             Parameter_Name: Num_Players_2plus_ST_L9G,
+                             Feature_required: Player_ST_AVG_L9G,
+                             Floor: 2
+                             }
+Num_Players_2plus_ST_L8G: {Description: Number of players averaging 2+ steals over last 8 games, Null if not applicable,
+                             Parameter_Name: Num_Players_2plus_ST_L8G,
+                             Feature_required: Player_ST_AVG_L8G,
+                             Floor: 2
+                             }
+Num_Players_2plus_ST_L7G: {Description: Number of players averaging 2+ steals over last 7 games, Null if not applicable,
+                             Parameter_Name: Num_Players_2plus_ST_L7G,
+                             Feature_required: Player_ST_AVG_L7G,
+                             Floor: 2
+                             }
+Num_Players_2plus_ST_L6G: {Description: Number of players averaging 2+ steals over last 6 games, Null if not applicable,
+                             Parameter_Name: Num_Players_2plus_ST_L6G,
+                             Feature_required: Player_ST_AVG_L6G,
+                             Floor: 2
+                             }
+Num_Players_2plus_ST_L5G: {Description: Number of players averaging 2+ steals over last 5 games, Null if not applicable,
+                             Parameter_Name: Num_Players_2plus_ST_L5G,
+                             Feature_required: Player_ST_AVG_L5G,
+                             Floor: 2
+                             }
+Num_Players_2plus_ST_L4G: {Description: Number of players averaging 2+ steals over last 4 games, Null if not applicable,
+                             Parameter_Name: Num_Players_2plus_ST_L4G,
+                             Feature_required: Player_ST_AVG_L4G,
+                             Floor: 2
+                             }
+Num_Players_2plus_ST_L3G: {Description: Number of players averaging 2+ steals over last 3 games, Null if not applicable,
+                             Parameter_Name: Num_Players_2plus_ST_L3G,
+                             Feature_required: Player_ST_AVG_L3G,
+                             Floor: 2
+                             }
+Num_Players_2plus_ST_L2G: {Description: Number of players averaging 2+ steals over last 2 games, Null if not applicable,
+                             Parameter_Name: Num_Players_2plus_ST_L2G,
+                             Feature_required: Player_ST_AVG_L2G,
+                             Floor: 2
+                             }
+Num_Players_2plus_ST_LG: {Description: Number of players averaging 2+ steals over last the game, Null if not applicable,
+                             Parameter_Name: Num_Players_2plus_ST_LG,
+                             Feature_required: Player_ST_AVG_LG,
+                             Floor: 2
+                             }
+Num_Players_1plus_ST_L10G: {Description: Number of players averaging 1+ steals over last 10 games, Null if not applicable,
+                             Parameter_Name: Num_Players_1plus_ST_L10G,
+                             Feature_required: Player_ST_AVG_L10G,
+                             Floor: 1
+                             }
+Num_Players_1plus_ST_L9G: {Description: Number of players averaging 1+ steals over last 9 games, Null if not applicable,
+                             Parameter_Name: Num_Players_1plus_ST_L9G,
+                             Feature_required: Player_ST_AVG_L9G,
+                             Floor: 1
+                             }
+Num_Players_1plus_ST_L8G: {Description: Number of players averaging 1+ steals over last 8 games, Null if not applicable,
+                             Parameter_Name: Num_Players_1plus_ST_L8G,
+                             Feature_required: Player_ST_AVG_L8G,
+                             Floor: 1
+                             }
+Num_Players_1plus_ST_L7G: {Description: Number of players averaging 1+ steals over last 7 games, Null if not applicable,
+                             Parameter_Name: Num_Players_1plus_ST_L7G,
+                             Feature_required: Player_ST_AVG_L7G,
+                             Floor: 1
+                             }
+Num_Players_1plus_ST_L6G: {Description: Number of players averaging 1+ steals over last 6 games, Null if not applicable,
+                             Parameter_Name: Num_Players_1plus_ST_L6G,
+                             Feature_required: Player_ST_AVG_L6G,
+                             Floor: 1
+                             }
+Num_Players_1plus_ST_L5G: {Description: Number of players averaging 1+ steals over last 5 games, Null if not applicable,
+                             Parameter_Name: Num_Players_1plus_ST_L5G,
+                             Feature_required: Player_ST_AVG_L5G,
+                             Floor: 1
+                             }
+Num_Players_1plus_ST_L4G: {Description: Number of players averaging 1+ steals over last 4 games, Null if not applicable,
+                             Parameter_Name: Num_Players_1plus_ST_L4G,
+                             Feature_required: Player_ST_AVG_L4G,
+                             Floor: 1
+                             }
+Num_Players_1plus_ST_L3G: {Description: Number of players averaging 1+ steals over last 3 games, Null if not applicable,
+                             Parameter_Name: Num_Players_1plus_ST_L3G,
+                             Feature_required: Player_ST_AVG_L3G,
+                             Floor: 1
+                             }
+Num_Players_1plus_ST_L2G: {Description: Number of players averaging 1+ steals over last 2 games, Null if not applicable,
+                             Parameter_Name: Num_Players_1plus_ST_L2G,
+                             Feature_required: Player_ST_AVG_L2G,
+                             Floor: 1
+                             }
+Num_Players_1plus_ST_LG: {Description: Number of players averaging 1+ steals over last game, Null if not applicable,
+                             Parameter_Name: Num_Players_1plus_ST_LG,
+                             Feature_required: Player_ST_AVG_LG,
+                             Floor: 1
+                             }
+Num_Players_3plus_BL_L10G: {Description: Number of players averaging 3+ blocks over last 10 games, Null if not applicable,
+                             Parameter_Name: Num_Players_3plus_BL_L10G,
+                             Feature_required: Player_BL_AVG_L10G,
+                             Floor: 3
+                             }
+Num_Players_3plus_BL_L9G: {Description: Number of players averaging 3+ blocks over last 9 games, Null if not applicable,
+                             Parameter_Name: Num_Players_3plus_BL_L9G,
+                             Feature_required: Player_BL_AVG_L9G,
+                             Floor: 3
+                             }
+Num_Players_3plus_BL_L8G: {Description: Number of players averaging 3+ blocks over last 8 games, Null if not applicable,
+                             Parameter_Name: Num_Players_3plus_BL_L8G,
+                             Feature_required: Player_BL_AVG_L8G,
+                             Floor: 3
+                             }
+Num_Players_3plus_BL_L7G: {Description: Number of players averaging 3+ blocks over last 7 games, Null if not applicable,
+                             Parameter_Name: Num_Players_3plus_BL_L7G,
+                             Feature_required: Player_BL_AVG_L7G,
+                             Floor: 3
+                             }
+Num_Players_3plus_BL_L6G: {Description: Number of players averaging 3+ blocks over last 6 games, Null if not applicable,
+                             Parameter_Name: Num_Players_3plus_BL_L6G,
+                             Feature_required: Player_BL_AVG_L6G,
+                             Floor: 3
+                             }
+Num_Players_3plus_BL_L5G: {Description: Number of players averaging 3+ blocks over last 5 games, Null if not applicable,
+                             Parameter_Name: Num_Players_3plus_BL_L5G,
+                             Feature_required: Player_BL_AVG_L5G,
+                             Floor: 3
+                             }
+Num_Players_3plus_BL_L4G: {Description: Number of players averaging 3+ blocks over last 4 games, Null if not applicable,
+                             Parameter_Name: Num_Players_3plus_BL_L4G,
+                             Feature_required: Player_BL_AVG_L4G,
+                             Floor: 3
+                             }
+Num_Players_3plus_BL_L3G: {Description: Number of players averaging 3+ blocks over last 3 games, Null if not applicable,
+                             Parameter_Name: Num_Players_3plus_BL_L3G,
+                             Feature_required: Player_BL_AVG_L3G,
+                             Floor: 3
+                             }
+Num_Players_3plus_BL_L2G: {Description: Number of players averaging 3+ blocks over last 2 games, Null if not applicable,
+                             Parameter_Name: Num_Players_3plus_BL_L2G,
+                             Feature_required: Player_BL_AVG_L2G,
+                             Floor: 3
+                             }
+Num_Players_3plus_BL_LG: {Description: Number of players averaging 3+ blocks over last game, Null if not applicable,
+                             Parameter_Name: Num_Players_3plus_BL_LG,
+                             Feature_required: Player_BL_AVG_LG,
+                             Floor: 3
+                             }
+Num_Players_2plus_BL_L10G: {Description: Number of players averaging 2+ blocks over last 10 games, Null if not applicable,
+                             Parameter_Name: Num_Players_2plus_BL_L10G,
+                             Feature_required: Player_BL_AVG_L10G,
+                             Floor: 2
+                             }
+Num_Players_2plus_BL_L9G: {Description: Number of players averaging 2+ blocks over last 9 games, Null if not applicable,
+                             Parameter_Name: Num_Players_2plus_BL_L9G,
+                             Feature_required: Player_BL_AVG_L9G,
+                             Floor: 2
+                             }
+Num_Players_2plus_BL_L8G: {Description: Number of players averaging 2+ blocks over last 8 games, Null if not applicable,
+                             Parameter_Name: Num_Players_2plus_BL_L8G,
+                             Feature_required: Player_BL_AVG_L8G,
+                             Floor: 2
+                             }
+Num_Players_2plus_BL_L7G: {Description: Number of players averaging 2+ blocks over last 7 games, Null if not applicable,
+                             Parameter_Name: Num_Players_2plus_BL_L7G,
+                             Feature_required: Player_BL_AVG_L7G,
+                             Floor: 2
+                             }
+Num_Players_2plus_BL_L6G: {Description: Number of players averaging 2+ blocks over last 6 games, Null if not applicable,
+                             Parameter_Name: Num_Players_2plus_BL_L6G,
+                             Feature_required: Player_BL_AVG_L6G,
+                             Floor: 2
+                             }
+Num_Players_2plus_BL_L5G: {Description: Number of players averaging 2+ blocks over last 5 games, Null if not applicable,
+                             Parameter_Name: Num_Players_2plus_BL_L5G,
+                             Feature_required: Player_BL_AVG_L5G,
+                             Floor: 2
+                             }
+Num_Players_2plus_BL_L4G: {Description: Number of players averaging 2+ blocks over last 4 games, Null if not applicable,
+                             Parameter_Name: Num_Players_2plus_BL_L4G,
+                             Feature_required: Player_BL_AVG_L4G,
+                             Floor: 2
+                             }
+Num_Players_2plus_BL_L3G: {Description: Number of players averaging 2+ blocks over last 3 games, Null if not applicable,
+                             Parameter_Name: Num_Players_2plus_BL_L3G,
+                             Feature_required: Player_BL_AVG_L3G,
+                             Floor: 2
+                             }
+Num_Players_2plus_BL_L2G: {Description: Number of players averaging 2+ blocks over last 2 games, Null if not applicable,
+                             Parameter_Name: Num_Players_2plus_BL_L2G,
+                             Feature_required: Player_BL_AVG_L2G,
+                             Floor: 2
+                             }
+Num_Players_2plus_BL_LG: {Description: Number of players averaging 2+ blocks over last game, Null if not applicable,
+                             Parameter_Name: Num_Players_2plus_BL_LG,
+                             Feature_required: Player_BL_AVG_LG,
+                             Floor: 2
+                             }
+Num_Players_1plus_BL_L10G: {Description: Number of players averaging 1+ blocks over last 10 games, Null if not applicable,
+                             Parameter_Name: Num_Players_1plus_BL_L10G,
+                             Feature_required: Player_BL_AVG_L10G,
+                             Floor: 1
+                             }
+Num_Players_1plus_BL_L9G: {Description: Number of players averaging 1+ blocks over last 9 games, Null if not applicable,
+                             Parameter_Name: Num_Players_1plus_BL_L9G,
+                             Feature_required: Player_BL_AVG_L9G,
+                             Floor: 1
+                             }
+Num_Players_1plus_BL_L8G: {Description: Number of players averaging 1+ blocks over last 8 games, Null if not applicable,
+                             Parameter_Name: Num_Players_1plus_BL_L8G,
+                             Feature_required: Player_BL_AVG_L8G,
+                             Floor: 1
+                             }
+Num_Players_1plus_BL_L7G: {Description: Number of players averaging 1+ blocks over last 7 games, Null if not applicable,
+                             Parameter_Name: Num_Players_1plus_BL_L7G,
+                             Feature_required: Player_BL_AVG_L7G,
+                             Floor: 1
+                             }
+Num_Players_1plus_BL_L6G: {Description: Number of players averaging 1+ blocks over last 6 games, Null if not applicable,
+                             Parameter_Name: Num_Players_1plus_BL_L6G,
+                             Feature_required: Player_BL_AVG_L6G,
+                             Floor: 1
+                             }
+Num_Players_1plus_BL_L5G: {Description: Number of players averaging 1+ blocks over last 5 games, Null if not applicable,
+                             Parameter_Name: Num_Players_1plus_BL_L5G,
+                             Feature_required: Player_BL_AVG_L5G,
+                             Floor: 1
+                             }
+Num_Players_1plus_BL_L4G: {Description: Number of players averaging 1+ blocks over last 4 games, Null if not applicable,
+                             Parameter_Name: Num_Players_1plus_BL_L4G,
+                             Feature_required: Player_BL_AVG_L4G,
+                             Floor: 1
+                             }
+Num_Players_1plus_BL_L3G: {Description: Number of players averaging 1+ blocks over last 3 games, Null if not applicable,
+                             Parameter_Name: Num_Players_1plus_BL_L3G,
+                             Feature_required: Player_BL_AVG_L3G,
+                             Floor: 1
+                             }
+Num_Players_1plus_BL_L2G: {Description: Number of players averaging 1+ blocks over last 2 games, Null if not applicable,
+                             Parameter_Name: Num_Players_1plus_BL_L2G,
+                             Feature_required: Player_BL_AVG_L2G,
+                             Floor: 1
+                             }
+Num_Players_1plus_BL_LG: {Description: Number of players averaging 1+ blocks over last game, Null if not applicable,
+                          Parameter_Name: Num_Players_1plus_BL_LG,
+                          Feature_required: Player_BL_AVG_LG,
+                          Floor: 1
+                          }
+Num_Players_5plus_TO_L10G: {Description: Number of players averaging 5+ turnovers over last 10 games, Null if not applicable,
+                          Parameter_Name: Num_Players_5plus_TO_L10G,
+                          Feature_required: Player_TO_AVG_L10G ,
+                          Floor: 5
+                          }
+Num_Players_5plus_TO_L9G: {Description: Number of players averaging 5+ turnovers over last 9 games, Null if not applicable,
+                          Parameter_Name: Num_Players_5plus_TO_L9G,
+                          Feature_required: Player_TO_AVG_L9G ,
+                          Floor: 5
+                          }
+Num_Players_5plus_TO_L8G: {Description: Number of players averaging 5+ turnovers over last 8 games, Null if not applicable,
+                          Parameter_Name: Num_Players_5plus_TO_L8G,
+                          Feature_required: Player_TO_AVG_L8G ,
+                          Floor: 5
+                          }
+Num_Players_5plus_TO_L7G: {Description: Number of players averaging 5+ turnovers over last 7 games, Null if not applicable,
+                          Parameter_Name: Num_Players_5plus_TO_L7G,
+                          Feature_required: Player_TO_AVG_L7G ,
+                          Floor: 5
+                          }
+Num_Players_5plus_TO_L6G: {Description: Number of players averaging 5+ turnovers over last 6 games, Null if not applicable,
+                          Parameter_Name: Num_Players_5plus_TO_L6G,
+                          Feature_required: Player_TO_AVG_L6G ,
+                          Floor: 5
+                          }
+Num_Players_5plus_TO_L5G: {Description: Number of players averaging 5+ turnovers over last 5 games, Null if not applicable,
+                          Parameter_Name: Num_Players_5plus_TO_L5G,
+                          Feature_required: Player_TO_AVG_L5G ,
+                          Floor: 5
+                          }
+Num_Players_5plus_TO_L4G: {Description: Number of players averaging 5+ turnovers over last 4 games, Null if not applicable,
+                          Parameter_Name: Num_Players_5plus_TO_L4G,
+                          Feature_required: Player_TO_AVG_L4G ,
+                          Floor: 5
+                          }
+Num_Players_5plus_TO_L3G: {Description: Number of players averaging 5+ turnovers over last 3 games, Null if not applicable,
+                          Parameter_Name: Num_Players_5plus_TO_L3G,
+                          Feature_required: Player_TO_AVG_L3G ,
+                          Floor: 5
+                          }
+Num_Players_5plus_TO_L2G: {Description: Number of players averaging 5+ turnovers over last 2 games, Null if not applicable,
+                          Parameter_Name: Num_Players_5plus_TO_L2G,
+                          Feature_required: Player_TO_AVG_L2G ,
+                          Floor: 5
+                          }
+Num_Players_5plus_TO_LG: {Description: Number of players averaging 5+ turnovers over last game, Null if not applicable,
+                          Parameter_Name: Num_Players_5plus_TO_LG,
+                          Feature_required: Player_TO_AVG_LG ,
+                          Floor: 5
+                          }
+Num_Players_3plus_TO_L10G: {Description: Number of players averaging 3+ turnovers over last 10 games, Null if not applicable,
+                          Parameter_Name: Num_Players_3plus_TO_L10G,
+                          Feature_required: Player_TO_AVG_L10G ,
+                          Floor: 3
+                          }
+Num_Players_3plus_TO_L9G: {Description: Number of players averaging 3+ turnovers over last 9 games, Null if not applicable,
+                          Parameter_Name: Num_Players_3plus_TO_L9G,
+                          Feature_required: Player_TO_AVG_L9G ,
+                          Floor: 3
+                          }
+Num_Players_3plus_TO_L8G: {Description: Number of players averaging 3+ turnovers over last 8 games, Null if not applicable,
+                          Parameter_Name: Num_Players_3plus_TO_L8G,
+                          Feature_required: Player_TO_AVG_L8G ,
+                          Floor: 3
+                          }
+Num_Players_3plus_TO_L7G: {Description: Number of players averaging 3+ turnovers over last 7 games, Null if not applicable,
+                          Parameter_Name: Num_Players_3plus_TO_L7G,
+                          Feature_required: Player_TO_AVG_L7G ,
+                          Floor: 3
+                          }
+Num_Players_3plus_TO_L6G: {Description: Number of players averaging 3+ turnovers over last 6 games, Null if not applicable,
+                          Parameter_Name: Num_Players_3plus_TO_L6G,
+                          Feature_required: Player_TO_AVG_L6G ,
+                          Floor: 3
+                          }
+Num_Players_3plus_TO_L5G: {Description: Number of players averaging 3+ turnovers over last 5 games, Null if not applicable,
+                          Parameter_Name: Num_Players_3plus_TO_L5G,
+                          Feature_required: Player_TO_AVG_L5G ,
+                          Floor: 3
+                          }
+Num_Players_3plus_TO_L4G: {Description: Number of players averaging 3+ turnovers over last 4 games, Null if not applicable,
+                          Parameter_Name: Num_Players_3plus_TO_L4G,
+                          Feature_required: Player_TO_AVG_L4G ,
+                          Floor: 3
+                          }
+Num_Players_3plus_TO_L3G: {Description: Number of players averaging 3+ turnovers over last 3 games, Null if not applicable,
+                          Parameter_Name: Num_Players_3plus_TO_L3G,
+                          Feature_required: Player_TO_AVG_L3G ,
+                          Floor: 3
+                          }
+Num_Players_3plus_TO_L2G: {Description: Number of players averaging 3+ turnovers over last 2 games, Null if not applicable,
+                          Parameter_Name: Num_Players_3plus_TO_L2G,
+                          Feature_required: Player_TO_AVG_L2G ,
+                          Floor: 3
+                          }
+Num_Players_3plus_TO_LG: {Description: Number of players averaging 3+ turnovers over last game, Null if not applicable,
+                          Parameter_Name: Num_Players_3plus_TO_LG,
+                          Feature_required: Player_TO_AVG_LG ,
+                          Floor: 3
+                          }
+Num_Players_1plus_TO_L10G: {Description: Number of players averaging 1+ turnovers over last 10 games, Null if not applicable,
+                          Parameter_Name: Num_Players_1plus_TO_L10G,
+                          Feature_required: Player_TO_AVG_L10G ,
+                          Floor: 1
+                          }
+Num_Players_1plus_TO_L9G: {Description: Number of players averaging 1+ turnovers over last 9 games, Null if not applicable,
+                          Parameter_Name: Num_Players_1plus_TO_L9G,
+                          Feature_required: Player_TO_AVG_L9G ,
+                          Floor: 1
+                          }
+Num_Players_1plus_TO_L8G: {Description: Number of players averaging 1+ turnovers over last 8 games, Null if not applicable,
+                          Parameter_Name: Num_Players_1plus_TO_L8G,
+                          Feature_required: Player_TO_AVG_L8G ,
+                          Floor: 1
+                          }
+Num_Players_1plus_TO_L7G: {Description: Number of players averaging 1+ turnovers over last 7 games, Null if not applicable,
+                          Parameter_Name: Num_Players_1plus_TO_L7G,
+                          Feature_required: Player_TO_AVG_L7G ,
+                          Floor: 1
+                          }
+Num_Players_1plus_TO_L6G: {Description: Number of players averaging 1+ turnovers over last 6 games, Null if not applicable,
+                          Parameter_Name: Num_Players_1plus_TO_L6G,
+                          Feature_required: Player_TO_AVG_L6G ,
+                          Floor: 1
+                          }
+Num_Players_1plus_TO_L5G: {Description: Number of players averaging 1+ turnovers over last 5 games, Null if not applicable,
+                          Parameter_Name: Num_Players_1plus_TO_L5G,
+                          Feature_required: Player_TO_AVG_L5G ,
+                          Floor: 1
+                          }
+Num_Players_1plus_TO_L4G: {Description: Number of players averaging 1+ turnovers over last 4 games, Null if not applicable,
+                          Parameter_Name: Num_Players_1plus_TO_L4G,
+                          Feature_required: Player_TO_AVG_L4G ,
+                          Floor: 1
+                          }
+Num_Players_1plus_TO_L3G: {Description: Number of players averaging 1+ turnovers over last 3 games, Null if not applicable,
+                          Parameter_Name: Num_Players_1plus_TO_L3G,
+                          Feature_required: Player_TO_AVG_L3G ,
+                          Floor: 1
+                          }
+Num_Players_1plus_TO_L2G: {Description: Number of players averaging 1+ turnovers over last 2 games, Null if not applicable,
+                          Parameter_Name: Num_Players_1plus_TO_L2G,
+                          Feature_required: Player_TO_AVG_L2G ,
+                          Floor: 1
+                          }
+Num_Players_1plus_TO_LG: {Description: Number of players averaging 1+ turnovers over last game, Null if not applicable,
+                          Parameter_Name: Num_Players_1plus_TO_LG,
+                          Feature_required: Player_TO_AVG_LG ,
+                          Floor: 1
+                          }

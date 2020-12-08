@@ -1,0 +1,959 @@
+Player_PPG_AVG_L10G: {Description: Average points per game for the player over the last 10 games. Null if not applicable.,
+                     Parameter_Name: Player_PPG_AVG_L10G,
+                     column_required: PTS,
+                     method_of_compute: mean,
+                     rolling_window_required: 10}
+
+Player_PPG_AVG_L9G: {Description: Average points per game for the player over the last 9 games. Null if not applicable.,
+                     Parameter_Name: Player_PPG_AVG_L9G,
+                     column_required: PTS,
+                     method_of_compute: mean,
+                     rolling_window_required: 9}
+
+Player_PPG_AVG_L8G: {Description: Average points per game for the player over the last 8 games. Null if not applicable.,
+                     Parameter_Name: Player_PPG_AVG_L8G,
+                     column_required: PTS,
+                     method_of_compute: mean,
+                     rolling_window_required: 8}
+
+Player_PPG_AVG_L7G: {Description: Average points per game for the player over the last 7 games. Null if not applicable.,
+                     Parameter_Name: Player_PPG_AVG_L7G,
+                     column_required: PTS,
+                     method_of_compute: mean,
+                     rolling_window_required: 7}
+
+Player_PPG_AVG_L6G: {Description: Average points per game for the player over the last 6 games. Null if not applicable.,
+                     Parameter_Name: Player_PPG_AVG_L6G,
+                     column_required: PTS,
+                     method_of_compute: mean,
+                     rolling_window_required: 6}
+
+Player_PPG_AVG_L5G: {Description: Average points per game for the player over the last 5 games. Null if not applicable.,
+                     Parameter_Name: Player_PPG_AVG_L5G,
+                     column_required: PTS,
+                     method_of_compute: mean,
+                     rolling_window_required: 5}
+
+Player_PPG_AVG_L4G: {Description: Average points per game for the player over the last 4 games. Null if not applicable.,
+                     Parameter_Name: Player_PPG_AVG_L4G,
+                     column_required: PTS,
+                     method_of_compute: mean,
+                     rolling_window_required: 4}
+
+Player_PPG_AVG_L3G: {Description: Average points per game for the player over the last 3 games. Null if not applicable.,
+                     Parameter_Name: Player_PPG_AVG_L3G,
+                     column_required: PTS,
+                     method_of_compute: mean,
+                     rolling_window_required: 3}
+
+Player_PPG_AVG_L2G: {Description: Average points per game for the player over the last 2 games. Null if not applicable.,
+                     Parameter_Name: Player_PPG_AVG_L2G,
+                     column_required: PTS,
+                     method_of_compute: mean,
+                     rolling_window_required: 2}
+
+Player_PPG_AVG_LG: {Description: Average points per game for the player over the last 1 game. Null if not applicable.,
+                     Parameter_Name: Player_PPG_AVG_LG,
+                     column_required: PTS,
+                     method_of_compute: mean,
+                     rolling_window_required: 1}
+
+Player_APG_AVG_L10G: {Description: Average assists per game for the player over the last 10 games. Null if not applicable.,
+                     Parameter_Name: Player_APG_AVG_L10G,
+                     column_required: A,
+                     method_of_compute: mean,
+                     rolling_window_required: 10}
+
+Player_APG_AVG_L9G: {Description: Average assists per game for the player over the last 9 games. Null if not applicable.,
+                     Parameter_Name: Player_APG_AVG_L9G,
+                     column_required: A,
+                     method_of_compute: mean,
+                     rolling_window_required: 9}
+
+Player_APG_AVG_L8G: {Description: Average assists per game for the player over the last 8 games. Null if not applicable.,
+                     Parameter_Name: Player_APG_AVG_L8G,
+                     column_required: A,
+                     method_of_compute: mean,
+                     rolling_window_required: 8}
+
+Player_APG_AVG_L7G: {Description: Average assists per game for the player over the last 7 games. Null if not applicable.,
+                     Parameter_Name: Player_APG_AVG_L7G,
+                     column_required: A,
+                     method_of_compute: mean,
+                     rolling_window_required: 7}
+
+Player_APG_AVG_L6G: {Description: Average assists per game for the player over the last 6 games. Null if not applicable.,
+                     Parameter_Name: Player_APG_AVG_L6G,
+                     column_required: A,
+                     method_of_compute: mean,
+                     rolling_window_required: 6}
+
+Player_APG_AVG_L5G: {Description: Average assists per game for the player over the last 5 games. Null if not applicable.,
+                     Parameter_Name: Player_APG_AVG_L5G,
+                     column_required: A,
+                     method_of_compute: mean,
+                     rolling_window_required: 5}
+
+Player_APG_AVG_L4G: {Description: Average assists per game for the player over the last 4 games. Null if not applicable.,
+                     Parameter_Name: Player_APG_AVG_L4G,
+                     column_required: A,
+                     method_of_compute: mean,
+                     rolling_window_required: 4}
+
+Player_APG_AVG_L3G: {Description: Average assists per game for the player over the last 3 games. Null if not applicable.,
+                     Parameter_Name: Player_APG_AVG_L3G,
+                     column_required: A,
+                     method_of_compute: mean,
+                     rolling_window_required: 3}
+
+Player_APG_AVG_L2G: {Description: Average assists per game for the player over the last 2 games. Null if not applicable.,
+                     Parameter_Name: Player_APG_AVG_L2G,
+                     column_required: A,
+                     method_of_compute: mean,
+                     rolling_window_required: 2}
+
+Player_APG_AVG_LG: {Description: Average assists per game for the player over the last game. Null if not applicable.,
+                     Parameter_Name: Player_APG_AVG_L2G,
+                     column_required: A,
+                     method_of_compute: mean,
+                     rolling_window_required: 1}
+
+Player_TOT_AVG_L10G: {Description: Average total rebounds per game for the player over the last 10 games. Null if not applicable.,
+                     Parameter_Name: Player_TOT_AVG_L10G,
+                     column_required: TOT,
+                     method_of_compute: mean,
+                     rolling_window_required: 10}
+
+Player_TOT_AVG_L9G: {Description: Average total rebounds per game for the player over the last 9 games. Null if not applicable.,
+                     Parameter_Name: Player_TOT_AVG_L9G,
+                     column_required: TOT,
+                     method_of_compute: mean,
+                     rolling_window_required: 9}
+
+Player_TOT_AVG_L8G: {Description: Average total rebounds per game for the player over the last 8 games. Null if not applicable.,
+                     Parameter_Name: Player_TOT_AVG_L8G,
+                     column_required: TOT,
+                     method_of_compute: mean,
+                     rolling_window_required: 8}
+
+Player_TOT_AVG_L7G: {Description: Average total rebounds per game for the player over the last 7 games. Null if not applicable.,
+                     Parameter_Name: Player_TOT_AVG_L7G,
+                     column_required: TOT,
+                     method_of_compute: mean,
+                     rolling_window_required: 7}
+
+Player_TOT_AVG_L6G: {Description: Average total rebounds per game for the player over the last 6 games. Null if not applicable.,
+                     Parameter_Name: Player_TOT_AVG_L6G,
+                     column_required: TOT,
+                     method_of_compute: mean,
+                     rolling_window_required: 6}
+
+Player_TOT_AVG_L5G: {Description: Average total rebounds per game for the player over the last 5 games. Null if not applicable.,
+                     Parameter_Name: Player_TOT_AVG_L5G,
+                     column_required: TOT,
+                     method_of_compute: mean,
+                     rolling_window_required: 5}
+
+Player_TOT_AVG_L4G: {Description: Average total rebounds per game for the player over the last 4 games. Null if not applicable.,
+                     Parameter_Name: Player_TOT_AVG_L4G,
+                     column_required: TOT,
+                     method_of_compute: mean,
+                     rolling_window_required: 4}
+
+Player_TOT_AVG_L3G: {Description: Average total rebounds per game for the player over the last 3 games. Null if not applicable.,
+                     Parameter_Name: Player_TOT_AVG_L3G,
+                     column_required: TOT,
+                     method_of_compute: mean,
+                     rolling_window_required: 3}
+
+Player_TOT_AVG_L2G: {Description: Average total rebounds per game for the player over the last 2 games. Null if not applicable.,
+                     Parameter_Name: Player_TOT_AVG_L2G,
+                     column_required: TOT,
+                     method_of_compute: mean,
+                     rolling_window_required: 2}
+
+Player_TOT_AVG_LG: {Description: Average total rebounds per game for the player over the last game. Null if not applicable.,
+                     Parameter_Name: Player_TOT_AVG_LG,
+                     column_required: TOT,
+                     method_of_compute: mean,
+                     rolling_window_required: 1}
+
+Player_ST_AVG_L10G: {Description: Average steals per game for the player over the last 10 games. Null if not applicable.,
+                     Parameter_Name: Player_ST_AVG_L10G,
+                     column_required: ST,
+                     method_of_compute: mean,
+                     rolling_window_required: 10}
+
+Player_ST_AVG_L9G: {Description: Average steals per game for the player over the last 9 games. Null if not applicable.,
+                     Parameter_Name: Player_ST_AVG_L9G,
+                     column_required: ST,
+                     method_of_compute: mean,
+                     rolling_window_required: 9}
+
+Player_ST_AVG_L8G: {Description: Average steals per game for the player over the last 8 games. Null if not applicable.,
+                     Parameter_Name: Player_ST_AVG_L8G,
+                     column_required: ST,
+                     method_of_compute: mean,
+                     rolling_window_required: 8}
+
+Player_ST_AVG_L7G: {Description: Average steals per game for the player over the last 7 games. Null if not applicable.,
+                     Parameter_Name: Player_ST_AVG_L7G,
+                     column_required: ST,
+                     method_of_compute: mean,
+                     rolling_window_required: 7}
+
+Player_ST_AVG_L6G: {Description: Average steals per game for the player over the last 6 games. Null if not applicable.,
+                     Parameter_Name: Player_ST_AVG_L6G,
+                     column_required: ST,
+                     method_of_compute: mean,
+                     rolling_window_required: 6}
+
+Player_ST_AVG_L5G: {Description: Average steals per game for the player over the last 5 games. Null if not applicable.,
+                     Parameter_Name: Player_ST_AVG_L5G,
+                     column_required: ST,
+                     method_of_compute: mean,
+                     rolling_window_required: 5}
+
+Player_ST_AVG_L4G: {Description: Average steals per game for the player over the last 4 games. Null if not applicable.,
+                     Parameter_Name: Player_ST_AVG_L4G,
+                     column_required: ST,
+                     method_of_compute: mean,
+                     rolling_window_required: 4}
+
+Player_ST_AVG_L3G: {Description: Average steals per game for the player over the last 3 games. Null if not applicable.,
+                     Parameter_Name: Player_ST_AVG_L3G,
+                     column_required: ST,
+                     method_of_compute: mean,
+                     rolling_window_required: 3}
+
+Player_ST_AVG_L2G: {Description: Average steals per game for the player over the last 2 games. Null if not applicable.,
+                     Parameter_Name: Player_ST_AVG_L2G,
+                     column_required: ST,
+                     method_of_compute: mean,
+                     rolling_window_required: 2}
+
+Player_ST_AVG_LG: {Description: Average steals per game for the player over the last 1 game. Null if not applicable.,
+                     Parameter_Name: Player_ST_AVG_LG,
+                     column_required: ST,
+                     method_of_compute: mean,
+                     rolling_window_required: 1}
+
+Player_BL_AVG_L10G: {Description: Average blocks per game for the player over the last 10 games. Null if not applicable.,
+                     Parameter_Name: Player_BL_AVG_L10G,
+                     column_required: BL,
+                     method_of_compute: mean,
+                     rolling_window_required: 10}
+
+Player_BL_AVG_L9G: {Description: Average blocks per game for the player over the last 9 games. Null if not applicable.,
+                     Parameter_Name: Player_BL_AVG_L9G,
+                     column_required: BL,
+                     method_of_compute: mean,
+                     rolling_window_required: 9}
+
+Player_BL_AVG_L8G: {Description: Average blocks per game for the player over the last 8 games. Null if not applicable.,
+                     Parameter_Name: Player_BL_AVG_L8G,
+                     column_required: BL,
+                     method_of_compute: mean,
+                     rolling_window_required: 8}
+
+Player_BL_AVG_L7G: {Description: Average blocks per game for the player over the last 7 games. Null if not applicable.,
+                     Parameter_Name: Player_BL_AVG_L7G,
+                     column_required: BL,
+                     method_of_compute: mean,
+                     rolling_window_required: 7}
+
+Player_BL_AVG_L6G: {Description: Average blocks per game for the player over the last 6 games. Null if not applicable.,
+                     Parameter_Name: Player_BL_AVG_L6G,
+                     column_required: BL,
+                     method_of_compute: mean,
+                     rolling_window_required: 6}
+
+Player_BL_AVG_L5G: {Description: Average blocks per game for the player over the last 5 games. Null if not applicable.,
+                     Parameter_Name: Player_BL_AVG_L5G,
+                     column_required: BL,
+                     method_of_compute: mean,
+                     rolling_window_required: 5}
+
+Player_BL_AVG_L4G: {Description: Average blocks per game for the player over the last 4 games. Null if not applicable.,
+                     Parameter_Name: Player_BL_AVG_L4G,
+                     column_required: BL,
+                     method_of_compute: mean,
+                     rolling_window_required: 4}
+
+Player_BL_AVG_L3G: {Description: Average blocks per game for the player over the last 3 games. Null if not applicable.,
+                     Parameter_Name: Player_BL_AVG_L3G,
+                     column_required: BL,
+                     method_of_compute: mean,
+                     rolling_window_required: 3}
+
+Player_BL_AVG_L2G: {Description: Average blocks per game for the player over the last 2 games. Null if not applicable.,
+                     Parameter_Name: Player_BL_AVG_L2G,
+                     column_required: BL,
+                     method_of_compute: mean,
+                     rolling_window_required: 2}
+
+Player_BL_AVG_LG: {Description: Average blocks per game for the player over the last 1 game. Null if not applicable.,
+                     Parameter_Name: Player_BL_AVG_LG,
+                     column_required: BL,
+                     method_of_compute: mean,
+                     rolling_window_required: 1}
+
+Player_TO_AVG_L10G: {Description: Average turnovers per game for the player over the last 10 games. Null if not applicable.,
+                     Parameter_Name: Player_TO_AVG_L10G,
+                     column_required: TO,
+                     method_of_compute: mean,
+                     rolling_window_required: 10}
+
+Player_TO_AVG_L9G: {Description: Average turnovers per game for the player over the last 9 games. Null if not applicable.,
+                     Parameter_Name: Player_TO_AVG_L9G,
+                     column_required: TO,
+                     method_of_compute: mean,
+                     rolling_window_required: 9}
+
+Player_TO_AVG_L8G: {Description: Average turnovers per game for the player over the last 8 games. Null if not applicable.,
+                     Parameter_Name: Player_TO_AVG_L8G,
+                     column_required: TO,
+                     method_of_compute: mean,
+                     rolling_window_required: 8}
+
+Player_TO_AVG_L7G: {Description: Average turnovers per game for the player over the last 7 games. Null if not applicable.,
+                     Parameter_Name: Player_TO_AVG_L7G,
+                     column_required: TO,
+                     method_of_compute: mean,
+                     rolling_window_required: 7}
+
+Player_TO_AVG_L6G: {Description: Average turnovers per game for the player over the last 6 games. Null if not applicable.,
+                     Parameter_Name: Player_TO_AVG_L6G,
+                     column_required: TO,
+                     method_of_compute: mean,
+                     rolling_window_required: 6}
+
+Player_TO_AVG_L5G: {Description: Average turnovers per game for the player over the last 5 games. Null if not applicable.,
+                     Parameter_Name: Player_TO_AVG_L5G,
+                     column_required: TO,
+                     method_of_compute: mean,
+                     rolling_window_required: 5}
+
+Player_TO_AVG_L4G: {Description: Average turnovers per game for the player over the last 4 games. Null if not applicable.,
+                     Parameter_Name: Player_TO_AVG_L4G,
+                     column_required: TO,
+                     method_of_compute: mean,
+                     rolling_window_required: 4}
+
+Player_TO_AVG_L3G: {Description: Average turnovers per game for the player over the last 3 games. Null if not applicable.,
+                     Parameter_Name: Player_TO_AVG_L3G,
+                     column_required: TO,
+                     method_of_compute: mean,
+                     rolling_window_required: 3}
+
+Player_TO_AVG_L2G: {Description: Average turnovers per game for the player over the last 2 games. Null if not applicable.,
+                     Parameter_Name: Player_TO_AVG_L2G,
+                     column_required: TO,
+                     method_of_compute: mean,
+                     rolling_window_required: 2}
+
+Player_TO_AVG_LG: {Description: Average turnovers per game for the player over the last 1 game. Null if not applicable.,
+                     Parameter_Name: Player_TO_AVG_LG,
+                     column_required: TO,
+                     method_of_compute: mean,
+                     rolling_window_required: 1}
+
+Player_EFF_AVG_L10G: {Description: Average efficiency per game for the player over the last 10 games. Null if not applicable.,
+                     Parameter_Name: Player_EFF_AVG_L10G,
+                     column_required: efficiency,
+                     method_of_compute: mean,
+                     rolling_window_required: 10}
+
+Player_EFF_AVG_L9G: {Description: Average efficiency per game for the player over the last 9 games. Null if not applicable.,
+                     Parameter_Name: Player_EFF_AVG_L9G,
+                     column_required: efficiency,
+                     method_of_compute: mean,
+                     rolling_window_required: 9}
+
+Player_EFF_AVG_L8G: {Description: Average efficiency per game for the player over the last 8 games. Null if not applicable.,
+                     Parameter_Name: Player_EFF_AVG_L8G,
+                     column_required: efficiency,
+                     method_of_compute: mean,
+                     rolling_window_required: 8}
+
+Player_EFF_AVG_L7G: {Description: Average efficiency per game for the player over the last 7 games. Null if not applicable.,
+                     Parameter_Name: Player_EFF_AVG_L7G,
+                     column_required: efficiency,
+                     method_of_compute: mean,
+                     rolling_window_required: 7}
+
+Player_EFF_AVG_L6G: {Description: Average efficiency per game for the player over the last 6 games. Null if not applicable.,
+                     Parameter_Name: Player_EFF_AVG_L6G,
+                     column_required: efficiency,
+                     method_of_compute: mean,
+                     rolling_window_required: 6}
+
+Player_EFF_AVG_L5G: {Description: Average efficiency per game for the player over the last 5 games. Null if not applicable.,
+                     Parameter_Name: Player_EFF_AVG_L5G,
+                     column_required: efficiency,
+                     method_of_compute: mean,
+                     rolling_window_required: 5}
+
+Player_EFF_AVG_L4G: {Description: Average efficiency per game for the player over the last 4 games. Null if not applicable.,
+                     Parameter_Name: Player_EFF_AVG_L4G,
+                     column_required: efficiency,
+                     method_of_compute: mean,
+                     rolling_window_required: 4}
+
+Player_EFF_AVG_L3G: {Description: Average efficiency per game for the player over the last 3 games. Null if not applicable.,
+                     Parameter_Name: Player_EFF_AVG_L3G,
+                     column_required: efficiency,
+                     method_of_compute: mean,
+                     rolling_window_required: 3}
+
+Player_EFF_AVG_L2G: {Description: Average efficiency per game for the player over the last 2 games. Null if not applicable.,
+                     Parameter_Name: Player_EFF_AVG_L2G,
+                     column_required: efficiency,
+                     method_of_compute: mean,
+                     rolling_window_required: 2}
+
+Player_EFF_AVG_LG: {Description: Average efficiency per game for the player over the last 1 game. Null if not applicable.,
+                     Parameter_Name: Player_EFF_AVG_LG,
+                     column_required: efficiency,
+                     method_of_compute: mean,
+                     rolling_window_required: 1}
+
+Player_USG_AVG_L10G: {Description: Average usage rate per game for the player over the last 10 games. Null if not applicable.,
+                     Parameter_Name: Player_USG_AVG_L10G,
+                     column_required: usage_rate,
+                     method_of_compute: mean,
+                     rolling_window_required: 10}
+
+Player_USG_AVG_L9G: {Description: Average usage rate per game for the player over the last 9 games. Null if not applicable.,
+                     Parameter_Name: Player_USG_AVG_L9G,
+                     column_required: usage_rate,
+                     method_of_compute: mean,
+                     rolling_window_required: 9}
+
+Player_USG_AVG_L8G: {Description: Average usage rate per game for the player over the last 8 games. Null if not applicable.,
+                     Parameter_Name: Player_USG_AVG_L8G,
+                     column_required: usage_rate,
+                     method_of_compute: mean,
+                     rolling_window_required: 8}
+
+Player_USG_AVG_L7G: {Description: Average usage rate per game for the player over the last 7 games. Null if not applicable.,
+                     Parameter_Name: Player_USG_AVG_L7G,
+                     column_required: usage_rate,
+                     method_of_compute: mean,
+                     rolling_window_required: 7}
+
+Player_USG_AVG_L6G: {Description: Average usage rate per game for the player over the last 6 games. Null if not applicable.,
+                     Parameter_Name: Player_USG_AVG_L6G,
+                     column_required: usage_rate,
+                     method_of_compute: mean,
+                     rolling_window_required: 6}
+
+Player_USG_AVG_L5G: {Description: Average usage rate per game for the player over the last 5 games. Null if not applicable.,
+                     Parameter_Name: Player_USG_AVG_L5G,
+                     column_required: usage_rate,
+                     method_of_compute: mean,
+                     rolling_window_required: 5}
+
+Player_USG_AVG_L4G: {Description: Average usage rate per game for the player over the last 4 games. Null if not applicable.,
+                     Parameter_Name: Player_USG_AVG_L4G,
+                     column_required: usage_rate,
+                     method_of_compute: mean,
+                     rolling_window_required: 4}
+
+Player_USG_AVG_L3G: {Description: Average usage rate per game for the player over the last 3 games. Null if not applicable.,
+                     Parameter_Name: Player_EFF_AVG_L3G,
+                     column_required: usage_rate,
+                     method_of_compute: mean,
+                     rolling_window_required: 3}
+
+Player_USG_AVG_L2G: {Description: Average usage rate per game for the player over the last 2 games. Null if not applicable.,
+                     Parameter_Name: Player_EFF_AVG_L2G,
+                     column_required: usage_rate,
+                     method_of_compute: mean,
+                     rolling_window_required: 2}
+
+Player_USG_AVG_LG: {Description: Average usage rate per game for the player over the last 1 game. Null if not applicable.,
+                     Parameter_Name: Player_EFF_AVG_LG,
+                     column_required: usage_rate,
+                     method_of_compute: mean,
+                     rolling_window_required: 1}
+
+Player_MIN_AVG_L10G: {Description: Average minutes played per game for the player over the last 10 games. Null if not applicable.,
+                     Parameter_Name: Player_USG_AVG_L10G,
+                     column_required: MIN,
+                     method_of_compute: mean,
+                     rolling_window_required: 10}
+
+Player_MIN_AVG_L9G: {Description: Average minutes played per game for the player over the last 9 games. Null if not applicable.,
+                     Parameter_Name: Player_USG_AVG_L9G,
+                     column_required: MIN,
+                     method_of_compute: mean,
+                     rolling_window_required: 9}
+
+Player_MIN_AVG_L8G: {Description: Average minutes played per game for the player over the last 8 games. Null if not applicable.,
+                     Parameter_Name: Player_USG_AVG_L8G,
+                     column_required: MIN,
+                     method_of_compute: mean,
+                     rolling_window_required: 8}
+
+Player_MIN_AVG_L7G: {Description: Average minutes played per game for the player over the last 7 games. Null if not applicable.,
+                     Parameter_Name: Player_USG_AVG_L7G,
+                     column_required: MIN,
+                     method_of_compute: mean,
+                     rolling_window_required: 7}
+
+Player_MIN_AVG_L6G: {Description: Average minutes played per game for the player over the last 6 games. Null if not applicable.,
+                     Parameter_Name: Player_USG_AVG_L6G,
+                     column_required: MIN,
+                     method_of_compute: mean,
+                     rolling_window_required: 6}
+
+Player_MIN_AVG_L5G: {Description: Average minutes played per game for the player over the last 5 games. Null if not applicable.,
+                     Parameter_Name: Player_USG_AVG_L5G,
+                     column_required: MIN,
+                     method_of_compute: mean,
+                     rolling_window_required: 5}
+
+Player_MIN_AVG_L4G: {Description: Average minutes played per game for the player over the last 4 games. Null if not applicable.,
+                     Parameter_Name: Player_USG_AVG_L4G,
+                     column_required: MIN,
+                     method_of_compute: mean,
+                     rolling_window_required: 4}
+
+Player_MIN_AVG_L3G: {Description: Average minutes played per game for the player over the last 3 games. Null if not applicable.,
+                     Parameter_Name: Player_EFF_AVG_L3G,
+                     column_required: MIN,
+                     method_of_compute: mean,
+                     rolling_window_required: 3}
+
+Player_MIN_AVG_L2G: {Description: Average minutes played per game for the player over the last 2 games. Null if not applicable.,
+                     Parameter_Name: Player_EFF_AVG_L2G,
+                     column_required: MIN,
+                     method_of_compute: mean,
+                     rolling_window_required: 2}
+
+Player_MIN_AVG_LG: {Description: Average minutes played per game for the player over the last 1 game. Null if not applicable.,
+                     Parameter_Name: Player_EFF_AVG_LG,
+                     column_required: MIN,
+                     method_of_compute: mean,
+                     rolling_window_required: 1}
+
+Player_TS_PCT_AVG_L10G: {Description: Average true shooting percentage per game for the player over the last 10 games. Null if not applicable.,
+                     Parameter_Name: Player_TS_PCT_AVG_L10G,
+                     column_required: ['PTS', 'FGA', 'FTA'],
+                     method_of_compute: ts_pct_calc,
+                     rolling_window_required: 10}
+
+Player_TS_PCT_AVG_L9G: {Description: Average true shooting percentage per game for the player over the last 9 games. Null if not applicable.,
+                     Parameter_Name: Player_TS_PCT_AVG_L9G,
+                     column_required: ['PTS', 'FGA', 'FTA'],
+                     method_of_compute: ts_pct_calc,
+                     rolling_window_required: 9}
+
+Player_TS_PCT_AVG_L8G: {Description: Average true shooting percentage per game for the player over the last 8 games. Null if not applicable.,
+                     Parameter_Name: Player_TS_PCT_AVG_L8G,
+                     column_required: ['PTS', 'FGA', 'FTA'],
+                     method_of_compute: ts_pct_calc,
+                     rolling_window_required: 8}
+
+Player_TS_PCT_AVG_L7G: {Description: Average true shooting percentage per game for the player over the last 7 games. Null if not applicable.,
+                     Parameter_Name: Player_TS_PCT_AVG_L7G,
+                     column_required: ['PTS', 'FGA', 'FTA'],
+                     method_of_compute: ts_pct_calc,
+                     rolling_window_required: 7}
+
+Player_TS_PCT_AVG_L6G: {Description: Average true shooting percentage per game for the player over the last 6 games. Null if not applicable.,
+                     Parameter_Name: Player_TS_PCT_AVG_L6G,
+                     column_required: ['PTS', 'FGA', 'FTA'],
+                     method_of_compute: ts_pct_calc,
+                     rolling_window_required: 6}
+
+Player_TS_PCT_AVG_L5G: {Description: Average true shooting percentage per game for the player over the last 5 games. Null if not applicable.,
+                     Parameter_Name: Player_TS_PCT_AVG_L5G,
+                     column_required: ['PTS', 'FGA', 'FTA'],
+                     method_of_compute: ts_pct_calc,
+                     rolling_window_required: 5}
+
+Player_TS_PCT_AVG_L4G: {Description: Average true shooting percentage per game for the player over the last 4 games. Null if not applicable.,
+                     Parameter_Name: Player_TS_PCT_AVG_L4G,
+                     column_required: ['PTS', 'FGA', 'FTA'],
+                     method_of_compute: ts_pct_calc,
+                     rolling_window_required: 4}
+
+Player_TS_PCT_AVG_L3G: {Description: Average true shooting percentage per game for the player over the last 3 games. Null if not applicable.,
+                     Parameter_Name: Player_TS_PCT_AVG_L3G,
+                     column_required: ['PTS', 'FGA', 'FTA'],
+                     method_of_compute: ts_pct_calc,
+                     rolling_window_required: 3}
+
+Player_TS_PCT_AVG_L2G: {Description: Average true shooting percentage per game for the player over the last 2 games. Null if not applicable.,
+                     Parameter_Name: Player_TS_PCT_AVG_L2G,
+                     column_required: ['PTS', 'FGA', 'FTA'],
+                     method_of_compute: ts_pct_calc,
+                     rolling_window_required: 2}
+
+Player_TS_PCT_AVG_LG: {Description: Average true shooting percentage per game for the player over the last 1 game. Null if not applicable.,
+                     Parameter_Name: Player_TS_PCT_AVG_LG,
+                     column_required: ['PTS', 'FGA', 'FTA'],
+                     method_of_compute: ts_pct_calc,
+                     rolling_window_required: 1}
+
+Player_EFG_PCT_AVG_L10G: {Description: Average effective field-goal percentage per game for the player over the last 10 games. Null if not applicable.,
+                     Parameter_Name: Player_EFG_PCT_AVG_L10G,
+                     column_required: ['FG', '3P', 'FGA'],
+                     method_of_compute: eff_pct_calc,
+                     rolling_window_required: 10}
+
+Player_EFG_PCT_AVG_L9G: {Description: Average effective field-goal percentage per game for the player over the last 9 games. Null if not applicable.,
+                     Parameter_Name: Player_EFG_PCT_AVG_L9G,
+                     column_required: ['FG', '3P', 'FGA'],
+                     method_of_compute: eff_pct_calc,
+                     rolling_window_required: 9}
+
+Player_EFG_PCT_AVG_L8G: {Description: Average effective field-goal percentage per game for the player over the last 8 games. Null if not applicable.,
+                     Parameter_Name: Player_EFG_PCT_AVG_L8G,
+                     column_required: ['FG', '3P', 'FGA'],
+                     method_of_compute: eff_pct_calc,
+                     rolling_window_required: 8}
+
+Player_EFG_PCT_AVG_L7G: {Description: Average effective field-goal percentage per game for the player over the last 7 games. Null if not applicable.,
+                     Parameter_Name: Player_EFG_PCT_AVG_L7G,
+                     column_required: ['FG', '3P', 'FGA'],
+                     method_of_compute: eff_pct_calc,
+                     rolling_window_required: 7}
+
+Player_EFG_PCT_AVG_L6G: {Description: Average effective field-goal percentage per game for the player over the last 6 games. Null if not applicable.,
+                     Parameter_Name: Player_EFG_PCT_AVG_L6G,
+                     column_required: ['FG', '3P', 'FGA'],
+                     method_of_compute: eff_pct_calc,
+                     rolling_window_required: 6}
+
+Player_EFG_PCT_AVG_L5G: {Description: Average effective field-goal percentage per game for the player over the last 5 games. Null if not applicable.,
+                     Parameter_Name: Player_EFG_PCT_AVG_L5G,
+                     column_required: ['FG', '3P', 'FGA'],
+                     method_of_compute: eff_pct_calc,
+                     rolling_window_required: 5}
+
+Player_EFG_PCT_AVG_L4G: {Description: Average effective field-goal percentage per game for the player over the last 4 games. Null if not applicable.,
+                     Parameter_Name: Player_EFG_PCT_AVG_L4G,
+                     column_required: ['FG', '3P', 'FGA'],
+                     method_of_compute: eff_pct_calc,
+                     rolling_window_required: 4}
+
+Player_EFG_PCT_AVG_L3G: {Description: Average effective field-goal percentage per game for the player over the last 3 games. Null if not applicable.,
+                     Parameter_Name: Player_TS_PCT_AVG_L3G,
+                     column_required: ['FG', '3P', 'FGA'],
+                     method_of_compute: eff_pct_calc,
+                     rolling_window_required: 3}
+
+Player_EFG_PCT_AVG_L2G: {Description: Average effective field-goal percentage per game for the player over the last 2 games. Null if not applicable.,
+                     Parameter_Name: Player_TS_PCT_AVG_L2G,
+                     column_required: ['FG', '3P', 'FGA'],
+                     method_of_compute: eff_pct_calc,
+                     rolling_window_required: 2}
+
+Player_EFG_PCT_AVG_LG: {Description: Average effective field-goal percentage per game for the player over the last 1 game. Null if not applicable.,
+                     Parameter_Name: Player_TS_PCT_AVG_LG,
+                     column_required: ['FG', '3P', 'FGA'],
+                     method_of_compute: eff_pct_calc,
+                     rolling_window_required: 1}
+
+Player_FG_PCT_AVG_L10G: {Description: Average field-goal percentage per game for the player over the last 10 games. Null if not applicable.,
+                     Parameter_Name: Player_FG_PCT_AVG_L10G,
+                     column_required: ['FG', 'FGA'],
+                     method_of_compute: pct_calc,
+                     rolling_window_required: 10}
+
+Player_FG_PCT_AVG_L9G: {Description: Average field-goal percentage per game for the player over the last 9 games. Null if not applicable.,
+                     Parameter_Name: Player_FG_PCT_AVG_L9G,
+                     column_required: ['FG', 'FGA'],
+                     method_of_compute: pct_calc,
+                     rolling_window_required: 9}
+
+Player_FG_PCT_AVG_L8G: {Description: Average field-goal percentage per game for the player over the last 8 games. Null if not applicable.,
+                     Parameter_Name: Player_FG_PCT_AVG_L8G,
+                     column_required: ['FG', 'FGA'],
+                     method_of_compute: pct_calc,
+                     rolling_window_required: 8}
+
+Player_FG_PCT_AVG_L7G: {Description: Average field-goal percentage per game for the player over the last 7 games. Null if not applicable.,
+                     Parameter_Name: Player_FG_PCT_AVG_L7G,
+                     column_required: ['FG', 'FGA'],
+                     method_of_compute: pct_calc,
+                     rolling_window_required: 7}
+
+Player_FG_PCT_AVG_L6G: {Description: Average field-goal percentage per game for the player over the last 6 games. Null if not applicable.,
+                     Parameter_Name: Player_FG_PCT_AVG_L6G,
+                     column_required: ['FG', 'FGA'],
+                     method_of_compute: pct_calc,
+                     rolling_window_required: 6}
+
+Player_FG_PCT_AVG_L5G: {Description: Average field-goal percentage per game for the player over the last 5 games. Null if not applicable.,
+                     Parameter_Name: Player_FG_PCT_AVG_L5G,
+                     column_required: ['FG', 'FGA'],
+                     method_of_compute: pct_calc,
+                     rolling_window_required: 5}
+
+Player_FG_PCT_AVG_L4G: {Description: Average field-goal percentage per game for the player over the last 4 games. Null if not applicable.,
+                     Parameter_Name: Player_FG_PCT_AVG_L4G,
+                     column_required: ['FG', 'FGA'],
+                     method_of_compute: pct_calc,
+                     rolling_window_required: 4}
+
+Player_FG_PCT_AVG_L3G: {Description: Average field-goal percentage per game for the player over the last 3 games. Null if not applicable.,
+                     Parameter_Name: Player_FG_PCT_AVG_L3G,
+                     column_required: ['FG', 'FGA'],
+                     method_of_compute: pct_calc,
+                     rolling_window_required: 3}
+
+Player_FG_PCT_AVG_L2G: {Description: Average field-goal percentage per game for the player over the last 2 games. Null if not applicable.,
+                     Parameter_Name: Player_FG_PCT_AVG_L2G,
+                     column_required: ['FG', 'FGA'],
+                     method_of_compute: pct_calc,
+                     rolling_window_required: 2}
+
+Player_FG_PCT_AVG_LG: {Description: Average field-goal percentage per game for the player over the last 1 game. Null if not applicable.,
+                     Parameter_Name: Player_FG_PCT_AVG_LG,
+                     column_required: ['FG', 'FGA'],
+                     method_of_compute: pct_calc,
+                     rolling_window_required: 1}
+
+Player_3P_PCT_AVG_L10G: {Description: Average 3 point percentage per game for the player over the last 10 games. Null if not applicable.,
+                     Parameter_Name: Player_3P_PCT_AVG_L10G,
+                     column_required: ['3P', '3PA'],
+                     method_of_compute: pct_calc,
+                     rolling_window_required: 10}
+
+Player_3P_PCT_AVG_L9G: {Description: Average 3 point percentage per game for the player over the last 9 games. Null if not applicable.,
+                     Parameter_Name: Player_3P_PCT_AVG_L9G,
+                     column_required: ['3P', '3PA'],
+                     method_of_compute: pct_calc,
+                     rolling_window_required: 9}
+
+Player_3P_PCT_AVG_L8G: {Description: Average 3 point percentage per game for the player over the last 8 games. Null if not applicable.,
+                     Parameter_Name: Player_3P_PCT_AVG_L8G,
+                     column_required: ['3P', '3PA'],
+                     method_of_compute: pct_calc,
+                     rolling_window_required: 8}
+
+Player_3P_PCT_AVG_L7G: {Description: Average 3 point percentage per game for the player over the last 7 games. Null if not applicable.,
+                     Parameter_Name: Player_3P_PCT_AVG_L7G,
+                     column_required: ['3P', '3PA'],
+                     method_of_compute: pct_calc,
+                     rolling_window_required: 7}
+
+Player_3P_PCT_AVG_L6G: {Description: Average 3 point percentage per game for the player over the last 6 games. Null if not applicable.,
+                     Parameter_Name: Player_3P_PCT_AVG_L6G,
+                     column_required: ['3P', '3PA'],
+                     method_of_compute: pct_calc,
+                     rolling_window_required: 6}
+
+Player_3P_PCT_AVG_L5G: {Description: Average 3 point percentage per game for the player over the last 5 games. Null if not applicable.,
+                     Parameter_Name: Player_3P_PCT_AVG_L5G,
+                     column_required: ['3P', '3PA'],
+                     method_of_compute: pct_calc,
+                     rolling_window_required: 5}
+
+Player_3P_PCT_AVG_L4G: {Description: Average field-goal percentage per game for the player over the last 4 games. Null if not applicable.,
+                     Parameter_Name: Player_3P_PCT_AVG_L4G,
+                     column_required: ['3P', '3PA'],
+                     method_of_compute: pct_calc,
+                     rolling_window_required: 4}
+
+Player_3P_PCT_AVG_L3G: {Description: Average field-goal percentage per game for the player over the last 3 games. Null if not applicable.,
+                     Parameter_Name: Player_3P_PCT_AVG_L3G,
+                     column_required: ['3P', '3PA'],
+                     method_of_compute: pct_calc,
+                     rolling_window_required: 3}
+
+Player_3P_PCT_AVG_LG: {Description: Average field-goal percentage per game for the player over the last 2 games. Null if not applicable.,
+                     Parameter_Name: Player_3P_PCT_AVG_L2G,
+                     column_required: ['3P', '3PA'],
+                     method_of_compute: pct_calc,
+                     rolling_window_required: 2}
+
+Player_3P_PCT_AVG_LG: {Description: Average field-goal percentage per game for the player over the last 1 game. Null if not applicable.,
+                     Parameter_Name: Player_3P_PCT_AVG_LG,
+                     column_required: ['3P', '3PA'],
+                     method_of_compute: pct_calc,
+                     rolling_window_required: 1}
+
+Player_FT_PCT_AVG_L10G: {Description: Average free-throw percentage per game for the player over the last 10 games. Null if not applicable.,
+                     Parameter_Name: Player_FT_PCT_AVG_L10G,
+                     column_required: ['FT', 'FTA'],
+                     method_of_compute: pct_calc,
+                     rolling_window_required: 10}
+
+Player_FT_PCT_AVG_L9G: {Description: Average free-throw percentage per game for the player over the last 9 games. Null if not applicable.,
+                        Parameter_Name: Player_FT_PCT_AVG_L9G,
+                        column_required: ['FT', 'FTA'],
+                        method_of_compute: pct_calc,
+                        rolling_window_required: 9}
+
+Player_FT_PCT_AVG_L8G: {Description: Average free-throw percentage per game for the player over the last 8 games. Null if not applicable.,
+                        Parameter_Name: Player_FT_PCT_AVG_L8G,
+                        column_required: ['FT', 'FTA'],
+                        method_of_compute: pct_calc,
+                        rolling_window_required: 8}
+
+Player_FT_PCT_AVG_L7G: {Description: Average free-throw percentage per game for the player over the last 7 games. Null if not applicable.,
+                        Parameter_Name: Player_FT_PCT_AVG_L7G,
+                        column_required: ['FT', 'FTA'],
+                        method_of_compute: pct_calc,
+                        rolling_window_required: 7}
+
+Player_FT_PCT_AVG_L6G: {Description: Average free-throw percentage per game for the player over the last 6 games. Null if not applicable.,
+                        Parameter_Name: Player_FT_PCT_AVG_L6G,
+                        column_required: ['FT', 'FTA'],
+                        method_of_compute: pct_calc,
+                        rolling_window_required: 6}
+
+Player_FT_PCT_AVG_L5G: {Description: Average free-throw percentage per game for the player over the last 5 games. Null if not applicable.,
+                        Parameter_Name: Player_FT_PCT_AVG_L5G,
+                        column_required: ['FT', 'FTA'],
+                        method_of_compute: pct_calc,
+                        rolling_window_required: 5}
+
+Player_FT_PCT_AVG_L4G: {Description: Average free-throw percentage per game for the player over the last 4 games. Null if not applicable.,
+                        Parameter_Name: Player_FT_PCT_AVG_L4G,
+                        column_required: ['FT', 'FTA'],
+                        method_of_compute: pct_calc,
+                        rolling_window_required: 4}
+
+Player_FT_PCT_AVG_L3G: {Description: Average free-throw percentage per game for the player over the last 3 games. Null if not applicable.,
+                        Parameter_Name: Player_FT_PCT_AVG_L3G,
+                        column_required: ['FT', 'FTA'],
+                        method_of_compute: pct_calc,
+                        rolling_window_required: 3}
+
+Player_FT_PCT_AVG_L2G: {Description: Average free-throw percentage per game for the player over the last 2 games. Null if not applicable.,
+                        Parameter_Name: Player_FT_PCT_AVG_L2G,
+                        column_required: ['FT', 'FTA'],
+                        method_of_compute: pct_calc,
+                        rolling_window_required: 2}
+
+Player_FT_PCT_AVG_LG: {Description: Average free-throw percentage per game for the player over the last 1 games. Null if not applicable.,
+                       Parameter_Name: Player_FT_PCT_AVG_LG,
+                       column_required: ['FT', 'FTA'],
+                       method_of_compute: pct_calc,
+                       rolling_window_required: 1}
+
+Player_Num_Trip_Doub_L10G: {Description: Count of number of triple doubles the last 10 games. Null if not applicable.,
+                            Parameter_Name: Player_Num_Trip_Doub_L10G,
+                            column_required: triple_double_ind,
+                            method_of_compute: sum,
+                            rolling_window_required: 10}
+
+Player_Num_Trip_Doub_L9G: {Description: Count of number of triple doubles the last 9 games. Null if not applicable.,
+                            Parameter_Name: Player_Num_Trip_Doub_L9G,
+                            column_required: triple_double_ind,
+                            method_of_compute: sum,
+                            rolling_window_required: 9}
+
+Player_Num_Trip_Doub_L8G: {Description: Count of number of triple doubles the last 8 games. Null if not applicable.,
+                            Parameter_Name: Player_Num_Trip_Doub_L8G,
+                            column_required: triple_double_ind,
+                            method_of_compute: sum,
+                            rolling_window_required: 8}
+
+Player_Num_Trip_Doub_L7G: {Description: Count of number of triple doubles the last 7 games. Null if not applicable.,
+                            Parameter_Name: Player_Num_Trip_Doub_L7G,
+                            column_required: triple_double_ind,
+                            method_of_compute: sum,
+                            rolling_window_required: 7}
+
+Player_Num_Trip_Doub_L6G: {Description: Count of number of triple doubles the last 6 games. Null if not applicable.,
+                            Parameter_Name: Player_Num_Trip_Doub_L6G,
+                            column_required: triple_double_ind,
+                            method_of_compute: sum,
+                            rolling_window_required: 6}
+
+Player_Num_Trip_Doub_L5G: {Description: Count of number of triple doubles the last 5 games. Null if not applicable.,
+                            Parameter_Name: Player_Num_Trip_Doub_L5G,
+                            column_required: triple_double_ind,
+                            method_of_compute: sum,
+                            rolling_window_required: 5}
+
+Player_Num_Trip_Doub_L4G: {Description: Count of number of triple doubles the last 4 games. Null if not applicable.,
+                            Parameter_Name: Player_Num_Trip_Doub_L4G,
+                            column_required: triple_double_ind,
+                            method_of_compute: sum,
+                            rolling_window_required: 4}
+
+Player_Num_Trip_Doub_L3G: {Description: Count of number of triple doubles the last 3 games. Null if not applicable.,
+                            Parameter_Name: Player_Num_Trip_Doub_L3G,
+                            column_required: triple_double_ind,
+                            method_of_compute: sum,
+                            rolling_window_required: 3}
+
+Player_Num_Trip_Doub_L2G: {Description: Count of number of triple doubles the last 2 games. Null if not applicable.,
+                            Parameter_Name: Player_Num_Trip_Doub_L2G,
+                            column_required: triple_double_ind,
+                            method_of_compute: sum,
+                            rolling_window_required: 2}
+
+Player_Num_Trip_Doub_LG: {Description: Count of number of triple doubles the last 1 games. Null if not applicable.,
+                          Parameter_Name: Player_Num_Trip_Doub_LG,
+                          column_required: triple_double_ind,
+                          method_of_compute: sum,
+                          rolling_window_required: 1}
+
+Player_Num_Doub_Doub_L10G: {Description: Count of number of double doubles the last 10 games. Null if not applicable.,
+                            Parameter_Name: Player_Num_Doub_Doub_L10G,
+                            column_required: double_double_ind,
+                            method_of_compute: sum,
+                            rolling_window_required: 10}
+
+Player_Num_Doub_Doub_L9G: {Description: Count of number of double doubles the last 9 games. Null if not applicable.,
+                            Parameter_Name: Player_Num_Doub_Doub_L9G,
+                            column_required: double_double_ind,
+                            method_of_compute: sum,
+                            rolling_window_required: 9}
+
+Player_Num_Doub_Doub_L8G: {Description: Count of number of double doubles the last 8 games. Null if not applicable.,
+                            Parameter_Name: Player_Num_Doub_Doub_L9G,
+                            column_required: double_double_ind,
+                            method_of_compute: sum,
+                            rolling_window_required: 8}
+
+Player_Num_Doub_Doub_L7G: {Description: Count of number of double doubles the last 7 games. Null if not applicable.,
+                            Parameter_Name: Player_Num_Doub_Doub_L7G,
+                            column_required: double_double_ind,
+                            method_of_compute: sum,
+                            rolling_window_required: 7}
+
+Player_Num_Doub_Doub_L6G: {Description: Count of number of double doubles the last 6 games. Null if not applicable.,
+                            Parameter_Name: Player_Num_Doub_Doub_L6G,
+                            column_required: double_double_ind,
+                            method_of_compute: sum,
+                            rolling_window_required: 6}
+
+Player_Num_Doub_Doub_L5G: {Description: Count of number of double doubles the last 5 games. Null if not applicable.,
+                            Parameter_Name: Player_Num_Doub_Doub_L5G,
+                            column_required: double_double_ind,
+                            method_of_compute: sum,
+                            rolling_window_required: 5}
+
+Player_Num_Doub_Doub_L4G: {Description: Count of number of double doubles the last 4 games. Null if not applicable.,
+                            Parameter_Name: Player_Num_Doub_Doub_L4G,
+                            column_required: double_double_ind,
+                            method_of_compute: sum,
+                            rolling_window_required: 4}
+
+Player_Num_Doub_Doub_L3G: {Description: Count of number of double doubles the last 3 games. Null if not applicable.,
+                           Parameter_Name: Player_Num_Doub_Doub_L3G,
+                           column_required: double_double_ind,
+                           method_of_compute: sum,
+                           rolling_window_required: 3}
+
+Player_Num_Doub_Doub_L2G: {Description: Count of number of double doubles the last 2 games. Null if not applicable.,
+                           Parameter_Name: Player_Num_Doub_Doub_L2G,
+                           column_required: double_double_ind,
+                           method_of_compute: sum,
+                           rolling_window_required: 2}
+
+Player_Num_Doub_Doub_LG: {Description: Count of number of double doubles the last 1 games. Null if not applicable.,
+                          Parameter_Name: Player_Num_Doub_Doub_LG,
+                          column_required: double_double_ind,
+                          method_of_compute: sum,
+                          rolling_window_required: 1}
