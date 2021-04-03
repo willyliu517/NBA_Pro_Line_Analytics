@@ -312,3 +312,23 @@
             reg_alpha: hp.uniform("reg_alpha", 0.0, 1.0)
             reg_lambda: hp.uniform("reg_lambda", 0.0, 1.0)
             colsample_bytree: hp.uniform('colsample_bytree', 0.6, 1.0)  
+            
+- scenario_name : "GBM_three_way_outcome_top_50_features_rt_ht"
+  scenario_param:
+    inputs_path: '~/NBA_Pro_Line_Analytics/model_build_data/NBA_Team_Stats_2010-2019_Rolling_Avg_Win_Loss_pts_diff_player_features/model_build_validation.csv'
+    results_path: '~/NBA_Pro_Line_Analytics/model_scenario/pro_line_model_build_all_params/'
+    seed: 2454371
+    target: 'outcome'
+    candidate_variable_set:
+        - top_50_features_RT
+        - top_50_features_HT
+    hyperopt:
+        fmin_max_evals: 200
+        hyperparam_space:
+            learning_rate: hp.uniform('learning_rate', .001, .1)
+            subsample: hp.quniform('subsample', 0.6, 1, .05)
+            num_leaves: scope.int(hp.quniform('num_leaves', 4, 64, 1))
+            min_data_in_leaf: scope.int(hp.quniform('min_data_in_leaf', 5, 100, 5))
+            reg_alpha: hp.uniform("reg_alpha", 0.0, 1.0)
+            reg_lambda: hp.uniform("reg_lambda", 0.0, 1.0)
+            colsample_bytree: hp.uniform('colsample_bytree', 0.6, 1.0) 
